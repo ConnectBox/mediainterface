@@ -1,5 +1,5 @@
 {
-  "aar":  {
+  "aar": {
     "english": [
       "Afar"
     ],
@@ -7,7 +7,7 @@
       "Afaraf"
     ]
   },
-  "aa":  {
+  "aa": {
     "english": [
       "Afar"
     ],
@@ -15,7 +15,7 @@
       "Afaraf"
     ]
   },
-  "abk":  {
+  "abk": {
     "english": [
       "Abkhazian"
     ],
@@ -23,7 +23,7 @@
       "Abkhazian"
     ]
   },
-  "ab":  {
+  "ab": {
     "english": [
       "Abkhazian"
     ],
@@ -31,7 +31,7 @@
       "Abkhazian"
     ]
   },
-  "ace":  {
+  "ace": {
     "english": [
       "Achinese"
     ],
@@ -39,7 +39,7 @@
       "Achinese"
     ]
   },
-  "ach":  {
+  "ach": {
     "english": [
       "Acoli"
     ],
@@ -48,25 +48,26 @@
     ]
   },
   "acn":  {
-    "english": [
-      "Achang"
+    "english":  [
+      "Ngochang"
     ],
-    "native": [
+    "native":  [
+      "Ngochang",
       "Achang",
-      "Ngachang",
-      "阿昌",
-      "အာချန်)"
+      "Acang",
+      "阿昌"
     ]
   },
-  "ada":  {
+  "ada": {
     "english": [
-      "Adangme"
+      "Adangme",
+      "Dangme"
     ],
     "native": [
       "Adangme"
     ]
   },
-  "ady":  {
+  "ady": {
     "english": [
       "Adygei",
       "Adyghe"
@@ -76,7 +77,7 @@
       "Adyghe"
     ]
   },
-  "afa":  {
+  "afa": {
     "english": [
       "Afro-Asiatic Languages"
     ],
@@ -84,7 +85,7 @@
       "Afro-Asiatic Languages"
     ]
   },
-  "afh":  {
+  "afh": {
     "english": [
       "Afrihili"
     ],
@@ -92,7 +93,7 @@
       "Afrihili"
     ]
   },
-  "afr":  {
+  "afr": {
     "english": [
       "Afrikaans"
     ],
@@ -100,7 +101,7 @@
       "Afrikaans"
     ]
   },
-  "af":  {
+  "af": {
     "english": [
       "Afrikaans"
     ],
@@ -108,7 +109,7 @@
       "Afrikaans"
     ]
   },
-  "ain":  {
+  "ain": {
     "english": [
       "Ainu"
     ],
@@ -116,7 +117,7 @@
       "Ainu"
     ]
   },
-  "aka":  {
+  "aka": {
     "english": [
       "Akan"
     ],
@@ -124,7 +125,7 @@
       "Akan"
     ]
   },
-  "ak":  {
+  "ak": {
     "english": [
       "Akan"
     ],
@@ -132,7 +133,7 @@
       "Akan"
     ]
   },
-  "akk":  {
+  "akk": {
     "english": [
       "Akkadian"
     ],
@@ -140,7 +141,7 @@
       "Akkadian"
     ]
   },
-  "alb":  {
+  "alb": {
     "english": [
       "Albanian"
     ],
@@ -148,7 +149,7 @@
       "Shqip"
     ]
   },
-  "sqi":  {
+  "sqi": {
     "english": [
       "Albanian"
     ],
@@ -156,7 +157,7 @@
       "Shqip"
     ]
   },
-  "sq":  {
+  "sq": {
     "english": [
       "Albanian"
     ],
@@ -164,7 +165,7 @@
       "Shqip"
     ]
   },
-  "ale":  {
+  "ale": {
     "english": [
       "Aleut"
     ],
@@ -172,7 +173,7 @@
       "Aleut"
     ]
   },
-  "alg":  {
+  "alg": {
     "english": [
       "Algonquian Languages"
     ],
@@ -180,7 +181,7 @@
       "Algonquian Languages"
     ]
   },
-  "alt":  {
+  "alt": {
     "english": [
       "Southern Altai"
     ],
@@ -188,7 +189,7 @@
       "Southern Altai"
     ]
   },
-  "amh":  {
+  "amh": {
     "english": [
       "Amharic"
     ],
@@ -196,7 +197,7 @@
       "አማርኛ"
     ]
   },
-  "am":  {
+  "am": {
     "english": [
       "Amharic"
     ],
@@ -204,7 +205,7 @@
       "አማርኛ"
     ]
   },
-  "ang":  {
+  "ang": {
     "english": [
       "English Old (ca.450-1100)"
     ],
@@ -212,7 +213,7 @@
       "English Old (ca.450-1100)"
     ]
   },
-  "anp":  {
+  "anp": {
     "english": [
       "Angika"
     ],
@@ -220,7 +221,7 @@
       "Angika"
     ]
   },
-  "apa":  {
+  "apa": {
     "english": [
       "Apache Languages"
     ],
@@ -228,7 +229,7 @@
       "Apache Languages"
     ]
   },
-  "ara":  {
+  "ara": {
     "english": [
       "Arabic"
     ],
@@ -236,7 +237,7 @@
       "العربية"
     ]
   },
-  "ar":  {
+  "ar": {
     "english": [
       "Arabic"
     ],
@@ -244,7 +245,7 @@
       "العربية"
     ]
   },
-  "arc":  {
+  "arc": {
     "english": [
       "Imperial Aramaic (700-300 BCE)",
       "Official Aramaic (700-300 BCE)"
@@ -254,7 +255,7 @@
       "Official Aramaic (700-300 BCE)"
     ]
   },
-  "arg":  {
+  "arg": {
     "english": [
       "Aragonese"
     ],
@@ -262,7 +263,7 @@
       "Aragonés"
     ]
   },
-  "an":  {
+  "an": {
     "english": [
       "Aragonese"
     ],
@@ -270,7 +271,7 @@
       "Aragonés"
     ]
   },
-  "arm":  {
+  "arm": {
     "english": [
       "Armenian"
     ],
@@ -278,7 +279,7 @@
       "Հայերեն"
     ]
   },
-  "hye":  {
+  "hye": {
     "english": [
       "Armenian"
     ],
@@ -286,7 +287,7 @@
       "Հայերեն"
     ]
   },
-  "hy":  {
+  "hy": {
     "english": [
       "Armenian"
     ],
@@ -294,7 +295,7 @@
       "Հայերեն"
     ]
   },
-  "arn":  {
+  "arn": {
     "english": [
       "Mapuche",
       "Mapudungun"
@@ -304,7 +305,7 @@
       "Mapudungun"
     ]
   },
-  "arp":  {
+  "arp": {
     "english": [
       "Arapaho"
     ],
@@ -312,7 +313,7 @@
       "Arapaho"
     ]
   },
-  "art":  {
+  "art": {
     "english": [
       "Artificial Languages"
     ],
@@ -320,7 +321,7 @@
       "Artificial Languages"
     ]
   },
-  "arw":  {
+  "arw": {
     "english": [
       "Arawak"
     ],
@@ -328,7 +329,7 @@
       "Arawak"
     ]
   },
-  "asm":  {
+  "asm": {
     "english": [
       "Assamese"
     ],
@@ -336,7 +337,7 @@
       "অসমীয়া"
     ]
   },
-  "as":  {
+  "as": {
     "english": [
       "Assamese"
     ],
@@ -344,7 +345,7 @@
       "অসমীয়া"
     ]
   },
-  "ast":  {
+  "ast": {
     "english": [
       "Asturian",
       "Asturleonese",
@@ -358,7 +359,7 @@
       "Leonese"
     ]
   },
-  "ath":  {
+  "ath": {
     "english": [
       "Athapascan Languages"
     ],
@@ -366,7 +367,7 @@
       "Athapascan Languages"
     ]
   },
-  "aus":  {
+  "aus": {
     "english": [
       "Australian Languages"
     ],
@@ -374,7 +375,7 @@
       "Australian Languages"
     ]
   },
-  "ava":  {
+  "ava": {
     "english": [
       "Avaric"
     ],
@@ -383,7 +384,7 @@
       "магӀарул мацӀ"
     ]
   },
-  "av":  {
+  "av": {
     "english": [
       "Avaric"
     ],
@@ -392,7 +393,7 @@
       "магӀарул мацӀ"
     ]
   },
-  "ave":  {
+  "ave": {
     "english": [
       "Avestan"
     ],
@@ -400,7 +401,7 @@
       "Avesta"
     ]
   },
-  "ae":  {
+  "ae": {
     "english": [
       "Avestan"
     ],
@@ -408,7 +409,7 @@
       "Avesta"
     ]
   },
-  "awa":  {
+  "awa": {
     "english": [
       "Awadhi"
     ],
@@ -416,7 +417,7 @@
       "Awadhi"
     ]
   },
-  "aym":  {
+  "aym": {
     "english": [
       "Aymara"
     ],
@@ -424,7 +425,7 @@
       "Aymar Aru"
     ]
   },
-  "ay":  {
+  "ay": {
     "english": [
       "Aymara"
     ],
@@ -432,7 +433,7 @@
       "Aymar Aru"
     ]
   },
-  "aze":  {
+  "aze": {
     "english": [
       "Azerbaijani"
     ],
@@ -440,7 +441,7 @@
       "Azərbaycan Dili"
     ]
   },
-  "az":  {
+  "az": {
     "english": [
       "Azerbaijani"
     ],
@@ -448,7 +449,7 @@
       "Azərbaycan Dili"
     ]
   },
-  "bad":  {
+  "bad": {
     "english": [
       "Banda Languages"
     ],
@@ -456,7 +457,7 @@
       "Banda Languages"
     ]
   },
-  "bai":  {
+  "bai": {
     "english": [
       "Bamileke Languages"
     ],
@@ -464,7 +465,7 @@
       "Bamileke Languages"
     ]
   },
-  "bak":  {
+  "bak": {
     "english": [
       "Bashkir"
     ],
@@ -472,7 +473,7 @@
       "башҡорт теле"
     ]
   },
-  "ba":  {
+  "ba": {
     "english": [
       "Bashkir"
     ],
@@ -480,7 +481,7 @@
       "башҡорт теле"
     ]
   },
-  "bal":  {
+  "bal": {
     "english": [
       "Baluchi"
     ],
@@ -488,7 +489,7 @@
       "Baluchi"
     ]
   },
-  "bam":  {
+  "bam": {
     "english": [
       "Bambara"
     ],
@@ -496,7 +497,7 @@
       "Bamanankan"
     ]
   },
-  "bm":  {
+  "bm": {
     "english": [
       "Bambara"
     ],
@@ -504,7 +505,7 @@
       "Bamanankan"
     ]
   },
-  "ban":  {
+  "ban": {
     "english": [
       "Balinese"
     ],
@@ -512,7 +513,7 @@
       "Balinese"
     ]
   },
-  "baq":  {
+  "baq": {
     "english": [
       "Basque"
     ],
@@ -521,7 +522,7 @@
       "Euskera"
     ]
   },
-  "eus":  {
+  "eus": {
     "english": [
       "Basque"
     ],
@@ -530,7 +531,7 @@
       "Euskera"
     ]
   },
-  "eu":  {
+  "eu": {
     "english": [
       "Basque"
     ],
@@ -539,7 +540,7 @@
       "Euskera"
     ]
   },
-  "bas":  {
+  "bas": {
     "english": [
       "Basa"
     ],
@@ -547,7 +548,7 @@
       "Basa"
     ]
   },
-  "bat":  {
+  "bat": {
     "english": [
       "Baltic Languages"
     ],
@@ -555,7 +556,7 @@
       "Baltic Languages"
     ]
   },
-  "bej":  {
+  "bej": {
     "english": [
       "Bedawiyet",
       "Beja"
@@ -565,7 +566,7 @@
       "Beja"
     ]
   },
-  "bel":  {
+  "bel": {
     "english": [
       "Belarusian"
     ],
@@ -573,7 +574,7 @@
       "Беларуская"
     ]
   },
-  "be":  {
+  "be": {
     "english": [
       "Belarusian"
     ],
@@ -581,7 +582,7 @@
       "Беларуская"
     ]
   },
-  "bem":  {
+  "bem": {
     "english": [
       "Bemba"
     ],
@@ -589,7 +590,7 @@
       "Bemba"
     ]
   },
-  "ben":  {
+  "ben": {
     "english": [
       "Bengali"
     ],
@@ -597,7 +598,7 @@
       "বাংলা"
     ]
   },
-  "bn":  {
+  "bn": {
     "english": [
       "Bengali"
     ],
@@ -605,7 +606,7 @@
       "বাংলা"
     ]
   },
-  "ber":  {
+  "ber": {
     "english": [
       "Berber Languages"
     ],
@@ -613,7 +614,7 @@
       "Berber Languages"
     ]
   },
-  "bho":  {
+  "bho": {
     "english": [
       "Bhojpuri"
     ],
@@ -621,7 +622,7 @@
       "Bhojpuri"
     ]
   },
-  "bih":  {
+  "bih": {
     "english": [
       "Bihari Languages"
     ],
@@ -629,7 +630,7 @@
       "Bihari Languages"
     ]
   },
-  "bh":  {
+  "bh": {
     "english": [
       "Bihari Languages"
     ],
@@ -637,7 +638,7 @@
       "Bihari Languages"
     ]
   },
-  "bik":  {
+  "bik": {
     "english": [
       "Bikol"
     ],
@@ -645,7 +646,7 @@
       "Bikol"
     ]
   },
-  "bin":  {
+  "bin": {
     "english": [
       "Bini",
       "Edo"
@@ -655,7 +656,7 @@
       "Edo"
     ]
   },
-  "bis":  {
+  "bis": {
     "english": [
       "Bislama"
     ],
@@ -663,7 +664,7 @@
       "Bislama"
     ]
   },
-  "bi":  {
+  "bi": {
     "english": [
       "Bislama"
     ],
@@ -671,7 +672,7 @@
       "Bislama"
     ]
   },
-  "bla":  {
+  "bla": {
     "english": [
       "Siksika"
     ],
@@ -679,7 +680,7 @@
       "Siksika"
     ]
   },
-  "bnt":  {
+  "bnt": {
     "english": [
       "Bantu (Other)"
     ],
@@ -687,7 +688,7 @@
       "Bantu (Other)"
     ]
   },
-  "bos":  {
+  "bos": {
     "english": [
       "Bosnian"
     ],
@@ -695,7 +696,7 @@
       "Bosanski Jezik"
     ]
   },
-  "bs":  {
+  "bs": {
     "english": [
       "Bosnian"
     ],
@@ -703,7 +704,7 @@
       "Bosanski Jezik"
     ]
   },
-  "bra":  {
+  "bra": {
     "english": [
       "Braj"
     ],
@@ -711,7 +712,7 @@
       "Braj"
     ]
   },
-  "bre":  {
+  "bre": {
     "english": [
       "Breton"
     ],
@@ -719,16 +720,7 @@
       "Brezhoneg"
     ]
   },
-  "btk":  {
-    "english": [
-      "batak",
-      " langues"
-    ],
-    "native": [
-      "Batak languages"
-    ]
-  },
-  "br":  {
+  "br": {
     "english": [
       "Breton"
     ],
@@ -736,7 +728,18 @@
       "Brezhoneg"
     ]
   },
-  "btk":  {
+  "bru":  {
+    "english":  [
+      "Bru, Eastern"
+    ],
+    "native":  [
+      "Bru, Eastern",
+      "Brou",
+      "Bru Laos",
+      "Bru Tri"  
+    ]
+  },
+  "btk": {
     "english": [
       "Batak Languages"
     ],
@@ -744,7 +747,7 @@
       "Batak Languages"
     ]
   },
-  "bua":  {
+  "bua": {
     "english": [
       "Buriat"
     ],
@@ -752,7 +755,7 @@
       "Buriat"
     ]
   },
-  "bug":  {
+  "bug": {
     "english": [
       "Buginese"
     ],
@@ -760,7 +763,7 @@
       "Buginese"
     ]
   },
-  "bul":  {
+  "bul": {
     "english": [
       "Bulgarian"
     ],
@@ -768,7 +771,7 @@
       "български език"
     ]
   },
-  "bg":  {
+  "bg": {
     "english": [
       "Bulgarian"
     ],
@@ -776,7 +779,7 @@
       "български език"
     ]
   },
-  "bur":  {
+  "bur": {
     "english": [
       "Burmese"
     ],
@@ -784,7 +787,7 @@
       "ဗမာစာ"
     ]
   },
-  "mya":  {
+  "mya": {
     "english": [
       "Burmese"
     ],
@@ -792,7 +795,7 @@
       "ဗမာစာ"
     ]
   },
-  "my":  {
+  "my": {
     "english": [
       "Burmese"
     ],
@@ -800,7 +803,7 @@
       "ဗမာစာ"
     ]
   },
-  "byn":  {
+  "byn": {
     "english": [
       "Bilin",
       "Blin"
@@ -810,7 +813,18 @@
       "Blin"
     ]
   },
-  "cad":  {
+  "bzi": {
+    "english": [
+      "Bisu"
+    ],
+    "native":  [
+      "Bisu",
+      "Lawa",
+      "Mibisu",
+      "畢蘇語"
+    ]
+  },
+  "cad": {
     "english": [
       "Caddo"
     ],
@@ -818,7 +832,7 @@
       "Caddo"
     ]
   },
-  "cai":  {
+  "cai": {
     "english": [
       "Central American Indian Languages"
     ],
@@ -826,7 +840,7 @@
       "Central American Indian Languages"
     ]
   },
-  "car":  {
+  "car": {
     "english": [
       "Galibi Carib"
     ],
@@ -834,7 +848,7 @@
       "Galibi Carib"
     ]
   },
-  "cat":  {
+  "cat": {
     "english": [
       "Catalan",
       "Valencian"
@@ -843,7 +857,7 @@
       "Català"
     ]
   },
-  "ca":  {
+  "ca": {
     "english": [
       "Catalan",
       "Valencian"
@@ -852,7 +866,7 @@
       "Català"
     ]
   },
-  "cau":  {
+  "cau": {
     "english": [
       "Caucasian Languages"
     ],
@@ -860,15 +874,7 @@
       "Caucasian Languages"
     ]
   },
-  "csh":  {
-    "english": [
-      "Asho Chin Khyang Kongtu Laitu Khyeng Qin Sho Shoa"
-    ],
-    "native": [
-      "Chin Asho Cho"
-    ]
-  },
-  "ceb":  {
+  "ceb": {
     "english": [
       "Cebuano"
     ],
@@ -876,7 +882,18 @@
       "Cebuano"
     ]
   },
-  "cel":  {
+  "cek":  {
+    "english":  [
+      "Chin, Eastern Khumi"
+    ],
+    "native":  [
+      "Chin, Eastern Khumi",
+      "Chin, Eastern Khumi Rengcaa",
+      "Chin, Khumi Qengcaa",
+      "चिन, खुमि: क्वेंगका"
+    ]
+  },
+  "cel": {
     "english": [
       "Celtic Languages"
     ],
@@ -884,7 +901,7 @@
       "Celtic Languages"
     ]
   },
-  "cha":  {
+  "cha": {
     "english": [
       "Chamorro"
     ],
@@ -892,7 +909,7 @@
       "Chamoru"
     ]
   },
-  "ch":  {
+  "ch": {
     "english": [
       "Chamorro"
     ],
@@ -900,7 +917,7 @@
       "Chamoru"
     ]
   },
-  "chb":  {
+  "chb": {
     "english": [
       "Chibcha"
     ],
@@ -908,7 +925,7 @@
       "Chibcha"
     ]
   },
-  "che":  {
+  "che": {
     "english": [
       "Chechen"
     ],
@@ -916,7 +933,7 @@
       "нохчийн мотт"
     ]
   },
-  "ce":  {
+  "ce": {
     "english": [
       "Chechen"
     ],
@@ -924,7 +941,7 @@
       "нохчийн мотт"
     ]
   },
-  "chg":  {
+  "chg": {
     "english": [
       "Chagatai"
     ],
@@ -932,7 +949,7 @@
       "Chagatai"
     ]
   },
-  "chi":  {
+  "chi": {
     "english": [
       "Chinese"
     ],
@@ -942,7 +959,7 @@
       "漢語"
     ]
   },
-  "zho":  {
+  "zho": {
     "english": [
       "Chinese"
     ],
@@ -952,7 +969,7 @@
       "漢語"
     ]
   },
-  "zh":  {
+  "zh": {
     "english": [
       "Chinese"
     ],
@@ -962,7 +979,7 @@
       "漢語"
     ]
   },
-  "chk":  {
+  "chk": {
     "english": [
       "Chuukese"
     ],
@@ -970,7 +987,7 @@
       "Chuukese"
     ]
   },
-  "chm":  {
+  "chm": {
     "english": [
       "Mari"
     ],
@@ -978,7 +995,7 @@
       "Mari"
     ]
   },
-  "chn":  {
+  "chn": {
     "english": [
       "Chinook Jargon"
     ],
@@ -986,7 +1003,7 @@
       "Chinook Jargon"
     ]
   },
-  "cho":  {
+  "cho": {
     "english": [
       "Choctaw"
     ],
@@ -994,7 +1011,7 @@
       "Choctaw"
     ]
   },
-  "chp":  {
+  "chp": {
     "english": [
       "Chipewyan",
       "Dene Suline"
@@ -1004,7 +1021,7 @@
       "Dene Suline"
     ]
   },
-  "chr":  {
+  "chr": {
     "english": [
       "Cherokee"
     ],
@@ -1012,7 +1029,7 @@
       "Cherokee"
     ]
   },
-  "chu":  {
+  "chu": {
     "english": [
       "Church Slavic",
       "Church Slavonic",
@@ -1028,7 +1045,7 @@
       "Old Slavonic"
     ]
   },
-  "cu":  {
+  "cu": {
     "english": [
       "Church Slavic",
       "Church Slavonic",
@@ -1044,7 +1061,7 @@
       "Old Slavonic"
     ]
   },
-  "chv":  {
+  "chv": {
     "english": [
       "Chuvash"
     ],
@@ -1052,7 +1069,7 @@
       "чӑваш чӗлхи"
     ]
   },
-  "cv":  {
+  "cv": {
     "english": [
       "Chuvash"
     ],
@@ -1060,7 +1077,7 @@
       "чӑваш чӗлхи"
     ]
   },
-  "chy":  {
+  "chy": {
     "english": [
       "Cheyenne"
     ],
@@ -1068,15 +1085,7 @@
       "Cheyenne"
     ]
   },
-  "cop":  {
-    "english": [
-      "copte"
-    ],
-    "native": [
-      "Coptic"
-    ]
-  },
-  "cmc":  {
+  "cmc": {
     "english": [
       "Chamic Languages"
     ],
@@ -1085,14 +1094,17 @@
     ]
   },
   "cmn":  {
-    "english": [
+    "english":  [
       "Mandarin"
     ],
-    "native": [
-      "Mandarin"
+    "native":  [
+      "Mandarin",
+      "Beifang Fangyan",
+      "Beijinghua",
+      "普通話(國語)"
     ]
   },
-  "cop":  {
+  "cop": {
     "english": [
       "Coptic"
     ],
@@ -1100,7 +1112,7 @@
       "Coptic"
     ]
   },
-  "cor":  {
+  "cor": {
     "english": [
       "Cornish"
     ],
@@ -1108,7 +1120,7 @@
       "Kernewek"
     ]
   },
-  "kw":  {
+  "kw": {
     "english": [
       "Cornish"
     ],
@@ -1116,7 +1128,7 @@
       "Kernewek"
     ]
   },
-  "cos":  {
+  "cos": {
     "english": [
       "Corsican"
     ],
@@ -1125,7 +1137,7 @@
       "Lingua Corsa"
     ]
   },
-  "co":  {
+  "co": {
     "english": [
       "Corsican"
     ],
@@ -1134,7 +1146,7 @@
       "Lingua Corsa"
     ]
   },
-  "cpe":  {
+  "cpe": {
     "english": [
       "Creoles And Pidgins",
       "English Based"
@@ -1144,7 +1156,7 @@
       "English Based"
     ]
   },
-  "cpf":  {
+  "cpf": {
     "english": [
       "Creoles And Pidgins",
       "French-based"
@@ -1154,7 +1166,7 @@
       "French-based"
     ]
   },
-  "cpp":  {
+  "cpp": {
     "english": [
       "Creoles And Pidgins",
       "Portuguese-based"
@@ -1164,7 +1176,7 @@
       "Portuguese-based"
     ]
   },
-  "cre":  {
+  "cre": {
     "english": [
       "Cree"
     ],
@@ -1172,7 +1184,7 @@
       "ᓀᐦᐃᔭᐍᐏᐣ"
     ]
   },
-  "cr":  {
+  "cr": {
     "english": [
       "Cree"
     ],
@@ -1180,7 +1192,7 @@
       "ᓀᐦᐃᔭᐍᐏᐣ"
     ]
   },
-  "crh":  {
+  "crh": {
     "english": [
       "Crimean Tatar",
       "Crimean Turkish"
@@ -1190,7 +1202,7 @@
       "Crimean Turkish"
     ]
   },
-  "crp":  {
+  "crp": {
     "english": [
       "Creoles And Pidgins"
     ],
@@ -1198,7 +1210,7 @@
       "Creoles And Pidgins"
     ]
   },
-  "csb":  {
+  "csb": {
     "english": [
       "Kashubian"
     ],
@@ -1206,7 +1218,18 @@
       "Kashubian"
     ]
   },
-  "cus":  {
+  "csh":  {
+    "english":  [
+      "Chin, Asho"
+    ],
+    "native":  [
+      "Chin, Asho",
+      "Asho",
+      "Khawaw",
+      "Shoa"
+    ]
+  },
+  "cus": {
     "english": [
       "Cushitic Languages"
     ],
@@ -1214,7 +1237,7 @@
       "Cushitic Languages"
     ]
   },
-  "cze":  {
+  "cze": {
     "english": [
       "Czech"
     ],
@@ -1223,7 +1246,7 @@
       "čeština"
     ]
   },
-  "ces":  {
+  "ces": {
     "english": [
       "Czech"
     ],
@@ -1232,7 +1255,7 @@
       "čeština"
     ]
   },
-  "cs":  {
+  "cs": {
     "english": [
       "Czech"
     ],
@@ -1241,7 +1264,18 @@
       "čeština"
     ]
   },
-  "dak":  {
+  "ctd":  {
+    "english":  [
+      "Chin, Tedim"  
+    ],
+    "native":  [
+      "Chin Tedim",
+      "Lai",
+      "Tedim",
+      "चिन, तेदिम"
+    ]
+  },
+  "dak": {
     "english": [
       "Dakota"
     ],
@@ -1249,7 +1283,7 @@
       "Dakota"
     ]
   },
-  "dan":  {
+  "dan": {
     "english": [
       "Danish"
     ],
@@ -1257,7 +1291,7 @@
       "Dansk"
     ]
   },
-  "da":  {
+  "da": {
     "english": [
       "Danish"
     ],
@@ -1265,7 +1299,7 @@
       "Dansk"
     ]
   },
-  "dar":  {
+  "dar": {
     "english": [
       "Dargwa"
     ],
@@ -1273,7 +1307,7 @@
       "Dargwa"
     ]
   },
-  "day":  {
+  "day": {
     "english": [
       "Land Dayak Languages"
     ],
@@ -1281,7 +1315,7 @@
       "Land Dayak Languages"
     ]
   },
-  "del":  {
+  "del": {
     "english": [
       "Delaware"
     ],
@@ -1289,7 +1323,7 @@
       "Delaware"
     ]
   },
-  "den":  {
+  "den": {
     "english": [
       "Slave (Athapascan)"
     ],
@@ -1297,7 +1331,7 @@
       "Slave (Athapascan)"
     ]
   },
-  "dgr":  {
+  "dgr": {
     "english": [
       "Dogrib"
     ],
@@ -1305,7 +1339,7 @@
       "Dogrib"
     ]
   },
-  "din":  {
+  "din": {
     "english": [
       "Dinka"
     ],
@@ -1313,7 +1347,7 @@
       "Dinka"
     ]
   },
-  "div":  {
+  "div": {
     "english": [
       "Dhivehi",
       "Divehi",
@@ -1325,7 +1359,7 @@
       "Maldivian"
     ]
   },
-  "dv":  {
+  "dv": {
     "english": [
       "Dhivehi",
       "Divehi",
@@ -1337,7 +1371,7 @@
       "Maldivian"
     ]
   },
-  "doi":  {
+  "doi": {
     "english": [
       "Dogri"
     ],
@@ -1345,7 +1379,7 @@
       "Dogri"
     ]
   },
-  "dra":  {
+  "dra": {
     "english": [
       "Dravidian Languages"
     ],
@@ -1353,7 +1387,7 @@
       "Dravidian Languages"
     ]
   },
-  "dsb":  {
+  "dsb": {
     "english": [
       "Lower Sorbian"
     ],
@@ -1361,7 +1395,7 @@
       "Lower Sorbian"
     ]
   },
-  "dua":  {
+  "dua": {
     "english": [
       "Duala"
     ],
@@ -1369,7 +1403,7 @@
       "Duala"
     ]
   },
-  "dum":  {
+  "dum": {
     "english": [
       "Dutch Middle (ca.1050-1350)"
     ],
@@ -1377,7 +1411,7 @@
       "Dutch Middle (ca.1050-1350)"
     ]
   },
-  "dut":  {
+  "dut": {
     "english": [
       "Dutch",
       "Flemish"
@@ -1387,7 +1421,7 @@
       "Flemish"
     ]
   },
-  "nld":  {
+  "nld": {
     "english": [
       "Dutch",
       "Flemish"
@@ -1397,7 +1431,7 @@
       "Flemish"
     ]
   },
-  "nl":  {
+  "nl": {
     "english": [
       "Dutch",
       "Flemish"
@@ -1407,7 +1441,7 @@
       "Flemish"
     ]
   },
-  "dyu":  {
+  "dyu": {
     "english": [
       "Dyula"
     ],
@@ -1415,7 +1449,7 @@
       "Dyula"
     ]
   },
-  "dzo":  {
+  "dzo": {
     "english": [
       "Dzongkha"
     ],
@@ -1423,7 +1457,7 @@
       "Dzongkha"
     ]
   },
-  "dz":  {
+  "dz": {
     "english": [
       "Dzongkha"
     ],
@@ -1431,7 +1465,7 @@
       "Dzongkha"
     ]
   },
-  "efi":  {
+  "efi": {
     "english": [
       "Efik"
     ],
@@ -1439,7 +1473,7 @@
       "Efik"
     ]
   },
-  "egy":  {
+  "egy": {
     "english": [
       "Egyptian (Ancient)"
     ],
@@ -1447,7 +1481,7 @@
       "Egyptian (Ancient)"
     ]
   },
-  "eka":  {
+  "eka": {
     "english": [
       "Ekajuk"
     ],
@@ -1455,7 +1489,7 @@
       "Ekajuk"
     ]
   },
-  "elx":  {
+  "elx": {
     "english": [
       "Elamite"
     ],
@@ -1463,7 +1497,7 @@
       "Elamite"
     ]
   },
-  "eng":  {
+  "eng": {
     "english": [
       "English"
     ],
@@ -1471,7 +1505,7 @@
       "English"
     ]
   },
-  "en":  {
+  "en": {
     "english": [
       "English"
     ],
@@ -1479,7 +1513,7 @@
       "English"
     ]
   },
-  "enm":  {
+  "enm": {
     "english": [
       "English Middle (1100-1500)"
     ],
@@ -1487,7 +1521,7 @@
       "English Middle (1100-1500)"
     ]
   },
-  "epo":  {
+  "epo": {
     "english": [
       "Esperanto"
     ],
@@ -1495,7 +1529,7 @@
       "Esperanto"
     ]
   },
-  "eo":  {
+  "eo": {
     "english": [
       "Esperanto"
     ],
@@ -1503,7 +1537,7 @@
       "Esperanto"
     ]
   },
-  "est":  {
+  "est": {
     "english": [
       "Estonian"
     ],
@@ -1512,7 +1546,7 @@
       "Eesti Keel"
     ]
   },
-  "et":  {
+  "et": {
     "english": [
       "Estonian"
     ],
@@ -1521,7 +1555,7 @@
       "Eesti Keel"
     ]
   },
-  "ewe":  {
+  "ewe": {
     "english": [
       "Ewe"
     ],
@@ -1529,7 +1563,7 @@
       "Eʋegbe"
     ]
   },
-  "ee":  {
+  "ee": {
     "english": [
       "Ewe"
     ],
@@ -1537,7 +1571,7 @@
       "Eʋegbe"
     ]
   },
-  "ewo":  {
+  "ewo": {
     "english": [
       "Ewondo"
     ],
@@ -1545,7 +1579,7 @@
       "Ewondo"
     ]
   },
-  "fan":  {
+  "fan": {
     "english": [
       "Fang"
     ],
@@ -1553,7 +1587,7 @@
       "Fang"
     ]
   },
-  "fao":  {
+  "fao": {
     "english": [
       "Faroese"
     ],
@@ -1561,7 +1595,7 @@
       "Føroyskt"
     ]
   },
-  "fo":  {
+  "fo": {
     "english": [
       "Faroese"
     ],
@@ -1569,7 +1603,7 @@
       "Føroyskt"
     ]
   },
-  "fat":  {
+  "fat": {
     "english": [
       "Fanti"
     ],
@@ -1577,7 +1611,7 @@
       "Fanti"
     ]
   },
-  "fij":  {
+  "fij": {
     "english": [
       "Fijian"
     ],
@@ -1585,7 +1619,7 @@
       "Vosa Vakaviti"
     ]
   },
-  "fj":  {
+  "fj": {
     "english": [
       "Fijian"
     ],
@@ -1593,7 +1627,7 @@
       "Vosa Vakaviti"
     ]
   },
-  "fil":  {
+  "fil": {
     "english": [
       "Filipino",
       "Pilipino"
@@ -1603,7 +1637,7 @@
       "Pilipino"
     ]
   },
-  "fin":  {
+  "fin": {
     "english": [
       "Finnish"
     ],
@@ -1612,7 +1646,7 @@
       "Suomi"
     ]
   },
-  "fi":  {
+  "fi": {
     "english": [
       "Finnish"
     ],
@@ -1621,7 +1655,7 @@
       "Suomi"
     ]
   },
-  "fiu":  {
+  "fiu": {
     "english": [
       "Finno-Ugrian Languages"
     ],
@@ -1629,7 +1663,7 @@
       "Finno-Ugrian Languages"
     ]
   },
-  "fon":  {
+  "fon": {
     "english": [
       "Fon"
     ],
@@ -1637,7 +1671,7 @@
       "Fon"
     ]
   },
-  "fre":  {
+  "fre": {
     "english": [
       "French"
     ],
@@ -1646,7 +1680,7 @@
       "Langue Française"
     ]
   },
-  "fra":  {
+  "fra": {
     "english": [
       "French"
     ],
@@ -1655,7 +1689,7 @@
       "Langue Française"
     ]
   },
-  "fr":  {
+  "fr": {
     "english": [
       "French"
     ],
@@ -1664,7 +1698,7 @@
       "Langue Française"
     ]
   },
-  "frm":  {
+  "frm": {
     "english": [
       "French Middle (ca.1400-1600)"
     ],
@@ -1672,7 +1706,7 @@
       "French Middle (ca.1400-1600)"
     ]
   },
-  "fro":  {
+  "fro": {
     "english": [
       "French Old (842-ca.1400)"
     ],
@@ -1680,7 +1714,7 @@
       "French Old (842-ca.1400)"
     ]
   },
-  "frr":  {
+  "frr": {
     "english": [
       "Northern Frisian"
     ],
@@ -1688,7 +1722,7 @@
       "Northern Frisian"
     ]
   },
-  "frs":  {
+  "frs": {
     "english": [
       "Eastern Frisian"
     ],
@@ -1696,7 +1730,7 @@
       "Eastern Frisian"
     ]
   },
-  "fry":  {
+  "fry": {
     "english": [
       "Western Frisian"
     ],
@@ -1704,7 +1738,7 @@
       "Frysk"
     ]
   },
-  "fy":  {
+  "fy": {
     "english": [
       "Western Frisian"
     ],
@@ -1712,7 +1746,7 @@
       "Frysk"
     ]
   },
-  "ful":  {
+  "ful": {
     "english": [
       "Fulah"
     ],
@@ -1720,7 +1754,7 @@
       "Fulah"
     ]
   },
-  "ff":  {
+  "ff": {
     "english": [
       "Fulah"
     ],
@@ -1728,7 +1762,7 @@
       "Fulah"
     ]
   },
-  "fur":  {
+  "fur": {
     "english": [
       "Friulian"
     ],
@@ -1736,7 +1770,7 @@
       "Friulian"
     ]
   },
-  "gaa":  {
+  "gaa": {
     "english": [
       "Ga"
     ],
@@ -1744,7 +1778,7 @@
       "Ga"
     ]
   },
-  "gay":  {
+  "gay": {
     "english": [
       "Gayo"
     ],
@@ -1752,7 +1786,7 @@
       "Gayo"
     ]
   },
-  "gba":  {
+  "gba": {
     "english": [
       "Gbaya"
     ],
@@ -1760,7 +1794,7 @@
       "Gbaya"
     ]
   },
-  "gem":  {
+  "gem": {
     "english": [
       "Germanic Languages"
     ],
@@ -1768,7 +1802,7 @@
       "Germanic Languages"
     ]
   },
-  "geo":  {
+  "geo": {
     "english": [
       "Georgian"
     ],
@@ -1776,7 +1810,7 @@
       "ქართული"
     ]
   },
-  "kat":  {
+  "kat": {
     "english": [
       "Georgian"
     ],
@@ -1784,7 +1818,7 @@
       "ქართული"
     ]
   },
-  "ka":  {
+  "ka": {
     "english": [
       "Georgian"
     ],
@@ -1792,7 +1826,7 @@
       "ქართული"
     ]
   },
-  "ger":  {
+  "ger": {
     "english": [
       "German"
     ],
@@ -1800,7 +1834,7 @@
       "Deutsch"
     ]
   },
-  "deu":  {
+  "deu": {
     "english": [
       "German"
     ],
@@ -1808,7 +1842,7 @@
       "Deutsch"
     ]
   },
-  "de":  {
+  "de": {
     "english": [
       "German"
     ],
@@ -1816,7 +1850,7 @@
       "Deutsch"
     ]
   },
-  "gez":  {
+  "gez": {
     "english": [
       "Geez"
     ],
@@ -1824,7 +1858,7 @@
       "Geez"
     ]
   },
-  "gil":  {
+  "gil": {
     "english": [
       "Gilbertese"
     ],
@@ -1832,7 +1866,7 @@
       "Gilbertese"
     ]
   },
-  "gla":  {
+  "gla": {
     "english": [
       "Gaelic",
       "Scottish Gaelic"
@@ -1842,7 +1876,7 @@
       "Scottish Gaelic"
     ]
   },
-  "gd":  {
+  "gd": {
     "english": [
       "Gaelic",
       "Scottish Gaelic"
@@ -1852,7 +1886,7 @@
       "Scottish Gaelic"
     ]
   },
-  "gle":  {
+  "gle": {
     "english": [
       "Irish"
     ],
@@ -1860,7 +1894,7 @@
       "Gaeilge"
     ]
   },
-  "ga":  {
+  "ga": {
     "english": [
       "Irish"
     ],
@@ -1868,7 +1902,7 @@
       "Gaeilge"
     ]
   },
-  "glg":  {
+  "glg": {
     "english": [
       "Galician"
     ],
@@ -1876,7 +1910,7 @@
       "Galego"
     ]
   },
-  "gl":  {
+  "gl": {
     "english": [
       "Galician"
     ],
@@ -1884,7 +1918,7 @@
       "Galego"
     ]
   },
-  "glv":  {
+  "glv": {
     "english": [
       "Manx"
     ],
@@ -1893,7 +1927,7 @@
       "Gailck"
     ]
   },
-  "gv":  {
+  "gv": {
     "english": [
       "Manx"
     ],
@@ -1902,7 +1936,7 @@
       "Gailck"
     ]
   },
-  "gmh":  {
+  "gmh": {
     "english": [
       "German Middle High (ca.1050-1500)"
     ],
@@ -1910,7 +1944,7 @@
       "German Middle High (ca.1050-1500)"
     ]
   },
-  "goh":  {
+  "goh": {
     "english": [
       "German Old High (ca.750-1050)"
     ],
@@ -1918,7 +1952,7 @@
       "German Old High (ca.750-1050)"
     ]
   },
-  "gon":  {
+  "gon": {
     "english": [
       "Gondi"
     ],
@@ -1926,7 +1960,7 @@
       "Gondi"
     ]
   },
-  "gor":  {
+  "gor": {
     "english": [
       "Gorontalo"
     ],
@@ -1934,7 +1968,7 @@
       "Gorontalo"
     ]
   },
-  "got":  {
+  "got": {
     "english": [
       "Gothic"
     ],
@@ -1942,7 +1976,7 @@
       "Gothic"
     ]
   },
-  "grb":  {
+  "grb": {
     "english": [
       "Grebo"
     ],
@@ -1950,7 +1984,7 @@
       "Grebo"
     ]
   },
-  "grc":  {
+  "grc": {
     "english": [
       "Greek Ancient (to 1453)"
     ],
@@ -1958,7 +1992,7 @@
       "Greek Ancient (to 1453)"
     ]
   },
-  "gre":  {
+  "gre": {
     "english": [
       "Greek Modern (1453-)"
     ],
@@ -1966,7 +2000,7 @@
       "Greek Modern (1453-)"
     ]
   },
-  "ell":  {
+  "ell": {
     "english": [
       "Greek Modern (1453-)"
     ],
@@ -1974,7 +2008,7 @@
       "Greek Modern (1453-)"
     ]
   },
-  "el":  {
+  "el": {
     "english": [
       "Greek Modern (1453-)"
     ],
@@ -1982,15 +2016,7 @@
       "Greek Modern (1453-)"
     ]
   },
-  "grn":  {
-    "english": [
-      "Guarani"
-    ],
-    "native": [
-      "Guarani"
-    ]
-  },
-  "gn":  {
+  "grn": {
     "english": [
       "Guarani"
     ],
@@ -1998,7 +2024,15 @@
       "Guarani"
     ]
   },
-  "gsw":  {
+  "gn": {
+    "english": [
+      "Guarani"
+    ],
+    "native": [
+      "Guarani"
+    ]
+  },
+  "gsw": {
     "english": [
       "Alemannic",
       "Alsatian",
@@ -2010,7 +2044,7 @@
       "Swiss German"
     ]
   },
-  "guj":  {
+  "guj": {
     "english": [
       "Gujarati"
     ],
@@ -2018,7 +2052,7 @@
       "ગુજરાતી"
     ]
   },
-  "gu":  {
+  "gu": {
     "english": [
       "Gujarati"
     ],
@@ -2026,7 +2060,7 @@
       "ગુજરાતી"
     ]
   },
-  "gwi":  {
+  "gwi": {
     "english": [
       "Gwich'in"
     ],
@@ -2034,7 +2068,7 @@
       "Gwich'in"
     ]
   },
-  "hai":  {
+  "hai": {
     "english": [
       "Haida"
     ],
@@ -2042,7 +2076,7 @@
       "Haida"
     ]
   },
-  "hat":  {
+  "hat": {
     "english": [
       "Haitian",
       "Haitian Creole"
@@ -2051,7 +2085,7 @@
       "Kreyòl Ayisyen"
     ]
   },
-  "ht":  {
+  "ht": {
     "english": [
       "Haitian",
       "Haitian Creole"
@@ -2060,7 +2094,7 @@
       "Kreyòl Ayisyen"
     ]
   },
-  "hau":  {
+  "hau": {
     "english": [
       "Hausa"
     ],
@@ -2069,7 +2103,7 @@
       "هَوُسَ"
     ]
   },
-  "ha":  {
+  "ha": {
     "english": [
       "Hausa"
     ],
@@ -2078,7 +2112,7 @@
       "هَوُسَ"
     ]
   },
-  "haw":  {
+  "haw": {
     "english": [
       "Hawaiian"
     ],
@@ -2086,7 +2120,7 @@
       "Hawaiian"
     ]
   },
-  "heb":  {
+  "heb": {
     "english": [
       "Hebrew"
     ],
@@ -2094,7 +2128,7 @@
       "Hebrew"
     ]
   },
-  "he":  {
+  "he": {
     "english": [
       "Hebrew"
     ],
@@ -2102,7 +2136,7 @@
       "Hebrew"
     ]
   },
-  "her":  {
+  "her": {
     "english": [
       "Herero"
     ],
@@ -2110,7 +2144,19 @@
       "Otjiherero"
     ]
   },
-  "hz":  {
+  "hmj":  {
+    "english":  [
+      "Ge"
+      ],
+    "native":  [
+      "Ge",
+      "Chang Gu",
+      "Gedoudiu",
+      "Keh Deo",
+      "亻革家語、重安江苗語"  
+    ]
+  },
+  "hz": {
     "english": [
       "Herero"
     ],
@@ -2118,7 +2164,7 @@
       "Otjiherero"
     ]
   },
-  "hil":  {
+  "hil": {
     "english": [
       "Hiligaynon"
     ],
@@ -2126,7 +2172,7 @@
       "Hiligaynon"
     ]
   },
-  "him":  {
+  "him": {
     "english": [
       "Himachali Languages",
       "Western Pahari Languages"
@@ -2136,7 +2182,7 @@
       "Western Pahari Languages"
     ]
   },
-  "hin":  {
+  "hin": {
     "english": [
       "Hindi"
     ],
@@ -2145,7 +2191,7 @@
       "हिन्दी"
     ]
   },
-  "hi":  {
+  "hi": {
     "english": [
       "Hindi"
     ],
@@ -2154,7 +2200,7 @@
       "हिन्दी"
     ]
   },
-  "hit":  {
+  "hit": {
     "english": [
       "Hittite"
     ],
@@ -2162,7 +2208,7 @@
       "Hittite"
     ]
   },
-  "hmn":  {
+  "hmn": {
     "english": [
       "Hmong",
       "Mong"
@@ -2172,7 +2218,7 @@
       "Mong"
     ]
   },
-  "hmo":  {
+  "hmo": {
     "english": [
       "Hiri Motu"
     ],
@@ -2180,7 +2226,7 @@
       "Hiri Motu"
     ]
   },
-  "ho":  {
+  "ho": {
     "english": [
       "Hiri Motu"
     ],
@@ -2188,7 +2234,7 @@
       "Hiri Motu"
     ]
   },
-  "hrv":  {
+  "hrv": {
     "english": [
       "Croatian"
     ],
@@ -2196,7 +2242,7 @@
       "Hrvatski"
     ]
   },
-  "hr":  {
+  "hr": {
     "english": [
       "Croatian"
     ],
@@ -2204,7 +2250,7 @@
       "Hrvatski"
     ]
   },
-  "hsb":  {
+  "hsb": {
     "english": [
       "Upper Sorbian"
     ],
@@ -2212,7 +2258,7 @@
       "Upper Sorbian"
     ]
   },
-  "hun":  {
+  "hun": {
     "english": [
       "Hungarian"
     ],
@@ -2220,7 +2266,7 @@
       "Magyar"
     ]
   },
-  "hu":  {
+  "hu": {
     "english": [
       "Hungarian"
     ],
@@ -2228,7 +2274,7 @@
       "Magyar"
     ]
   },
-  "hup":  {
+  "hup": {
     "english": [
       "Hupa"
     ],
@@ -2236,7 +2282,7 @@
       "Hupa"
     ]
   },
-  "iba":  {
+  "iba": {
     "english": [
       "Iban"
     ],
@@ -2244,7 +2290,7 @@
       "Iban"
     ]
   },
-  "ibo":  {
+  "ibo": {
     "english": [
       "Igbo"
     ],
@@ -2252,7 +2298,7 @@
       "Asụsụ Igbo"
     ]
   },
-  "ig":  {
+  "ig": {
     "english": [
       "Igbo"
     ],
@@ -2260,7 +2306,7 @@
       "Asụsụ Igbo"
     ]
   },
-  "ice":  {
+  "ice": {
     "english": [
       "Icelandic"
     ],
@@ -2268,7 +2314,7 @@
       "Íslenska"
     ]
   },
-  "isl":  {
+  "isl": {
     "english": [
       "Icelandic"
     ],
@@ -2276,7 +2322,7 @@
       "Íslenska"
     ]
   },
-  "is":  {
+  "is": {
     "english": [
       "Icelandic"
     ],
@@ -2284,7 +2330,7 @@
       "Íslenska"
     ]
   },
-  "ido":  {
+  "ido": {
     "english": [
       "Ido"
     ],
@@ -2292,7 +2338,7 @@
       "Ido"
     ]
   },
-  "io":  {
+  "io": {
     "english": [
       "Ido"
     ],
@@ -2300,17 +2346,7 @@
       "Ido"
     ]
   },
-  "iii":  {
-    "english": [
-      "Nuosu",
-      "Sichuan Yi"
-    ],
-    "native": [
-      "Nuosu",
-      "Sichuan Yi"
-    ]
-  },
-  "ii":  {
+  "iii": {
     "english": [
       "Nuosu",
       "Sichuan Yi"
@@ -2320,7 +2356,17 @@
       "Sichuan Yi"
     ]
   },
-  "ijo":  {
+  "ii": {
+    "english": [
+      "Nuosu",
+      "Sichuan Yi"
+    ],
+    "native": [
+      "Nuosu",
+      "Sichuan Yi"
+    ]
+  },
+  "ijo": {
     "english": [
       "Ijo Languages"
     ],
@@ -2328,7 +2374,7 @@
       "Ijo Languages"
     ]
   },
-  "iku":  {
+  "iku": {
     "english": [
       "Inuktitut"
     ],
@@ -2336,7 +2382,7 @@
       "ᐃᓄᒃᑎᑐᑦ"
     ]
   },
-  "iu":  {
+  "iu": {
     "english": [
       "Inuktitut"
     ],
@@ -2344,7 +2390,7 @@
       "ᐃᓄᒃᑎᑐᑦ"
     ]
   },
-  "ile":  {
+  "ile": {
     "english": [
       "Interlingue",
       "Occidental"
@@ -2354,7 +2400,7 @@
       "Occidental"
     ]
   },
-  "ie":  {
+  "ie": {
     "english": [
       "Interlingue",
       "Occidental"
@@ -2364,7 +2410,7 @@
       "Occidental"
     ]
   },
-  "ilo":  {
+  "ilo": {
     "english": [
       "Iloko"
     ],
@@ -2372,7 +2418,7 @@
       "Iloko"
     ]
   },
-  "ina":  {
+  "ina": {
     "english": [
       "Interlingua (International Auxiliary Language Association)"
     ],
@@ -2380,7 +2426,7 @@
       "Interlingua (International Auxiliary Language Association)"
     ]
   },
-  "ia":  {
+  "ia": {
     "english": [
       "Interlingua (International Auxiliary Language Association)"
     ],
@@ -2388,7 +2434,7 @@
       "Interlingua (International Auxiliary Language Association)"
     ]
   },
-  "inc":  {
+  "inc": {
     "english": [
       "Indic Languages"
     ],
@@ -2396,7 +2442,7 @@
       "Indic Languages"
     ]
   },
-  "ind":  {
+  "ind": {
     "english": [
       "Indonesian"
     ],
@@ -2404,7 +2450,7 @@
       "Bahasa Indonesia"
     ]
   },
-  "id":  {
+  "id": {
     "english": [
       "Indonesian"
     ],
@@ -2412,7 +2458,7 @@
       "Bahasa Indonesia"
     ]
   },
-  "ine":  {
+  "ine": {
     "english": [
       "Indo-European Languages"
     ],
@@ -2420,7 +2466,7 @@
       "Indo-European Languages"
     ]
   },
-  "inh":  {
+  "inh": {
     "english": [
       "Ingush"
     ],
@@ -2428,7 +2474,7 @@
       "Ingush"
     ]
   },
-  "ipk":  {
+  "ipk": {
     "english": [
       "Inupiaq"
     ],
@@ -2437,7 +2483,7 @@
       "Iñupiatun"
     ]
   },
-  "ik":  {
+  "ik": {
     "english": [
       "Inupiaq"
     ],
@@ -2446,7 +2492,7 @@
       "Iñupiatun"
     ]
   },
-  "ira":  {
+  "ira": {
     "english": [
       "Iranian Languages"
     ],
@@ -2454,7 +2500,7 @@
       "Iranian Languages"
     ]
   },
-  "iro":  {
+  "iro": {
     "english": [
       "Iroquoian Languages"
     ],
@@ -2462,7 +2508,7 @@
       "Iroquoian Languages"
     ]
   },
-  "ita":  {
+  "ita": {
     "english": [
       "Italian"
     ],
@@ -2470,7 +2516,7 @@
       "Italiano"
     ]
   },
-  "it":  {
+  "it": {
     "english": [
       "Italian"
     ],
@@ -2478,7 +2524,7 @@
       "Italiano"
     ]
   },
-  "jav":  {
+  "jav": {
     "english": [
       "Javanese"
     ],
@@ -2486,7 +2532,7 @@
       "Basa Jawa"
     ]
   },
-  "jv":  {
+  "jv": {
     "english": [
       "Javanese"
     ],
@@ -2494,7 +2540,7 @@
       "Basa Jawa"
     ]
   },
-  "jbo":  {
+  "jbo": {
     "english": [
       "Lojban"
     ],
@@ -2502,7 +2548,7 @@
       "Lojban"
     ]
   },
-  "jpn":  {
+  "jpn": {
     "english": [
       "Japanese"
     ],
@@ -2510,7 +2556,7 @@
       "日本語 (にほんご／にっぽんご)"
     ]
   },
-  "ja":  {
+  "ja": {
     "english": [
       "Japanese"
     ],
@@ -2518,7 +2564,7 @@
       "日本語 (にほんご／にっぽんご)"
     ]
   },
-  "jpr":  {
+  "jpr": {
     "english": [
       "Judeo-Persian"
     ],
@@ -2526,7 +2572,7 @@
       "Judeo-Persian"
     ]
   },
-  "jrb":  {
+  "jrb": {
     "english": [
       "Judeo-Arabic"
     ],
@@ -2534,7 +2580,7 @@
       "Judeo-Arabic"
     ]
   },
-  "kaa":  {
+  "kaa": {
     "english": [
       "Kara-Kalpak"
     ],
@@ -2542,7 +2588,7 @@
       "Kara-Kalpak"
     ]
   },
-  "kab":  {
+  "kab": {
     "english": [
       "Kabyle"
     ],
@@ -2550,7 +2596,7 @@
       "Kabyle"
     ]
   },
-  "kac":  {
+  "kac": {
     "english": [
       "Jingpho",
       "Kachin"
@@ -2560,7 +2606,7 @@
       "Kachin"
     ]
   },
-  "kal":  {
+  "kal": {
     "english": [
       "Greenlandic",
       "Kalaallisut"
@@ -2570,7 +2616,7 @@
       "Kalaallisut"
     ]
   },
-  "kl":  {
+  "kl": {
     "english": [
       "Greenlandic",
       "Kalaallisut"
@@ -2580,7 +2626,7 @@
       "Kalaallisut"
     ]
   },
-  "kam":  {
+  "kam": {
     "english": [
       "Kamba"
     ],
@@ -2588,7 +2634,7 @@
       "Kamba"
     ]
   },
-  "kan":  {
+  "kan": {
     "english": [
       "Kannada"
     ],
@@ -2596,7 +2642,7 @@
       "ಕನ್ನಡ"
     ]
   },
-  "kn":  {
+  "kn": {
     "english": [
       "Kannada"
     ],
@@ -2604,7 +2650,7 @@
       "ಕನ್ನಡ"
     ]
   },
-  "kar":  {
+  "kar": {
     "english": [
       "Karen Languages"
     ],
@@ -2612,7 +2658,7 @@
       "Karen Languages"
     ]
   },
-  "kas":  {
+  "kas": {
     "english": [
       "Kashmiri"
     ],
@@ -2621,7 +2667,7 @@
       "कश्मीरी"
     ]
   },
-  "ks":  {
+  "ks": {
     "english": [
       "Kashmiri"
     ],
@@ -2630,7 +2676,7 @@
       "कश्मीरी"
     ]
   },
-  "kau":  {
+  "kau": {
     "english": [
       "Kanuri"
     ],
@@ -2638,7 +2684,7 @@
       "Kanuri"
     ]
   },
-  "kr":  {
+  "kr": {
     "english": [
       "Kanuri"
     ],
@@ -2646,7 +2692,7 @@
       "Kanuri"
     ]
   },
-  "kaw":  {
+  "kaw": {
     "english": [
       "Kawi"
     ],
@@ -2654,7 +2700,7 @@
       "Kawi"
     ]
   },
-  "kaz":  {
+  "kaz": {
     "english": [
       "Kazakh"
     ],
@@ -2662,7 +2708,7 @@
       "Қазақ тілі"
     ]
   },
-  "kk":  {
+  "kk": {
     "english": [
       "Kazakh"
     ],
@@ -2670,7 +2716,7 @@
       "Қазақ тілі"
     ]
   },
-  "kbd":  {
+  "kbd": {
     "english": [
       "Kabardian"
     ],
@@ -2678,7 +2724,7 @@
       "Kabardian"
     ]
   },
-  "kha":  {
+  "kha": {
     "english": [
       "Khasi"
     ],
@@ -2686,7 +2732,7 @@
       "Khasi"
     ]
   },
-  "khi":  {
+  "khi": {
     "english": [
       "Khoisan Languages"
     ],
@@ -2694,7 +2740,7 @@
       "Khoisan Languages"
     ]
   },
-  "khm":  {
+  "khm": {
     "english": [
       "Central Khmer"
     ],
@@ -2702,7 +2748,7 @@
       "Central Khmer"
     ]
   },
-  "km":  {
+  "km": {
     "english": [
       "Central Khmer"
     ],
@@ -2710,7 +2756,7 @@
       "Central Khmer"
     ]
   },
-  "kho":  {
+  "kho": {
     "english": [
       "Khotanese",
       "Sakan"
@@ -2720,7 +2766,7 @@
       "Sakan"
     ]
   },
-  "kik":  {
+  "kik": {
     "english": [
       "Gikuyu",
       "Kikuyu"
@@ -2730,7 +2776,7 @@
       "Kikuyu"
     ]
   },
-  "ki":  {
+  "ki": {
     "english": [
       "Gikuyu",
       "Kikuyu"
@@ -2740,7 +2786,7 @@
       "Kikuyu"
     ]
   },
-  "kin":  {
+  "kin": {
     "english": [
       "Kinyarwanda"
     ],
@@ -2748,7 +2794,7 @@
       "Ikinyarwanda"
     ]
   },
-  "rw":  {
+  "rw": {
     "english": [
       "Kinyarwanda"
     ],
@@ -2756,7 +2802,7 @@
       "Ikinyarwanda"
     ]
   },
-  "kir":  {
+  "kir": {
     "english": [
       "Kirghiz",
       "Kyrgyz"
@@ -2766,7 +2812,7 @@
       "Kyrgyz"
     ]
   },
-  "ky":  {
+  "ky": {
     "english": [
       "Kirghiz",
       "Kyrgyz"
@@ -2776,7 +2822,7 @@
       "Kyrgyz"
     ]
   },
-  "kmb":  {
+  "kmb": {
     "english": [
       "Kimbundu"
     ],
@@ -2784,7 +2830,7 @@
       "Kimbundu"
     ]
   },
-  "kok":  {
+  "kok": {
     "english": [
       "Konkani"
     ],
@@ -2792,7 +2838,7 @@
       "Konkani"
     ]
   },
-  "kom":  {
+  "kom": {
     "english": [
       "Komi"
     ],
@@ -2800,7 +2846,7 @@
       "коми кыв"
     ]
   },
-  "kv":  {
+  "kv": {
     "english": [
       "Komi"
     ],
@@ -2808,7 +2854,7 @@
       "коми кыв"
     ]
   },
-  "kon":  {
+  "kon": {
     "english": [
       "Kongo"
     ],
@@ -2816,7 +2862,7 @@
       "KiKongo"
     ]
   },
-  "kg":  {
+  "kg": {
     "english": [
       "Kongo"
     ],
@@ -2824,7 +2870,7 @@
       "KiKongo"
     ]
   },
-  "kor":  {
+  "kor": {
     "english": [
       "Korean"
     ],
@@ -2833,7 +2879,7 @@
       "한국어 (韓國語)"
     ]
   },
-  "ko":  {
+  "ko": {
     "english": [
       "Korean"
     ],
@@ -2842,7 +2888,7 @@
       "한국어 (韓國語)"
     ]
   },
-  "kos":  {
+  "kos": {
     "english": [
       "Kosraean"
     ],
@@ -2850,7 +2896,7 @@
       "Kosraean"
     ]
   },
-  "kpe":  {
+  "kpe": {
     "english": [
       "Kpelle"
     ],
@@ -2858,7 +2904,7 @@
       "Kpelle"
     ]
   },
-  "krc":  {
+  "krc": {
     "english": [
       "Karachay-Balkar"
     ],
@@ -2866,7 +2912,7 @@
       "Karachay-Balkar"
     ]
   },
-  "krl":  {
+  "krl": {
     "english": [
       "Karelian"
     ],
@@ -2874,7 +2920,7 @@
       "Karelian"
     ]
   },
-  "kro":  {
+  "kro": {
     "english": [
       "Kru Languages"
     ],
@@ -2882,7 +2928,7 @@
       "Kru Languages"
     ]
   },
-  "kru":  {
+  "kru": {
     "english": [
       "Kurukh"
     ],
@@ -2890,7 +2936,19 @@
       "Kurukh"
     ]
   },
-  "kua":  {
+  "ksw":  {
+    "english": [
+      "Karen, S'gaw"
+    ],
+    "native":  [
+      "Karen, S'gaw",
+      "Bilichi",
+      "Burmese Karen",
+      "kayinpyu",
+      "S'gaw"
+    ]
+  },
+  "kua": {
     "english": [
       "Kuanyama",
       "Kwanyama"
@@ -2900,7 +2958,7 @@
       "Kwanyama"
     ]
   },
-  "kj":  {
+  "kj": {
     "english": [
       "Kuanyama",
       "Kwanyama"
@@ -2910,7 +2968,18 @@
       "Kwanyama"
     ]
   },
-  "kum":  {
+  "kjp":  {
+    "english":  [
+      "Karen, Pwo"
+    ],
+    "native":  [
+      "Karen, Pwo",
+      "Karen, Pwo Eastern",
+      "Phlong",
+      "กะเหรี่ยงโป ตะวันออก"
+    ]
+  },
+  "kum": {
     "english": [
       "Kumyk"
     ],
@@ -2918,7 +2987,7 @@
       "Kumyk"
     ]
   },
-  "kur":  {
+  "kur": {
     "english": [
       "Kurdish"
     ],
@@ -2927,7 +2996,7 @@
       "كوردی‎"
     ]
   },
-  "ku":  {
+  "ku": {
     "english": [
       "Kurdish"
     ],
@@ -2936,7 +3005,7 @@
       "كوردی‎"
     ]
   },
-  "kut":  {
+  "kut": {
     "english": [
       "Kutenai"
     ],
@@ -2944,7 +3013,30 @@
       "Kutenai"
     ]
   },
-  "lad":  {
+  "kxm":  {
+    "english":  [
+      "Khmer"
+    ],
+    "native":  [
+     "Khmer",
+     "Khmer Lue",
+     "Khmer, Nothern",
+     "ខ្មែរលើ"
+    ]
+  },
+  "kyu":  {
+
+    "english":  [
+      "Kayah, Western"
+    ],
+    "Native":  [
+      "Karenni",
+      "Kayah Li",
+      "Karennnyi",
+      "กะยาตะวันตก"  
+    ]
+  },
+  "lad": {
     "english": [
       "Ladino"
     ],
@@ -2952,7 +3044,7 @@
       "Ladino"
     ]
   },
-  "lah":  {
+  "lah": {
     "english": [
       "Lahnda"
     ],
@@ -2960,7 +3052,7 @@
       "Lahnda"
     ]
   },
-  "lam":  {
+  "lam": {
     "english": [
       "Lamba"
     ],
@@ -2968,7 +3060,7 @@
       "Lamba"
     ]
   },
-  "lao":  {
+  "lao": {
     "english": [
       "Lao"
     ],
@@ -2976,7 +3068,7 @@
       "ພາສາລາວ"
     ]
   },
-  "lo":  {
+  "lo": {
     "english": [
       "Lao"
     ],
@@ -2984,7 +3076,7 @@
       "ພາສາລາວ"
     ]
   },
-  "lat":  {
+  "lat": {
     "english": [
       "Latin"
     ],
@@ -2993,7 +3085,7 @@
       "Lingua Latina"
     ]
   },
-  "la":  {
+  "la": {
     "english": [
       "Latin"
     ],
@@ -3002,7 +3094,7 @@
       "Lingua Latina"
     ]
   },
-  "lav":  {
+  "lav": {
     "english": [
       "Latvian"
     ],
@@ -3010,7 +3102,7 @@
       "Latviešu Valoda"
     ]
   },
-  "lv":  {
+  "lv": {
     "english": [
       "Latvian"
     ],
@@ -3018,7 +3110,7 @@
       "Latviešu Valoda"
     ]
   },
-  "lez":  {
+  "lez": {
     "english": [
       "Lezghian"
     ],
@@ -3026,7 +3118,7 @@
       "Lezghian"
     ]
   },
-  "lim":  {
+  "lim": {
     "english": [
       "Limburgan",
       "Limburger",
@@ -3038,7 +3130,7 @@
       "Limburgish"
     ]
   },
-  "li":  {
+  "li": {
     "english": [
       "Limburgan",
       "Limburger",
@@ -3050,7 +3142,7 @@
       "Limburgish"
     ]
   },
-  "lin":  {
+  "lin": {
     "english": [
       "Lingala"
     ],
@@ -3058,7 +3150,7 @@
       "Lingála"
     ]
   },
-  "ln":  {
+  "ln": {
     "english": [
       "Lingala"
     ],
@@ -3066,7 +3158,30 @@
       "Lingála"
     ]
   },
-  "lit":  {
+  "lhu":  {
+    "english":  [
+      "Lahu"
+    ],
+    "native":  [
+     "Lahu",
+     "Kaixien",
+     "Kucong",
+     "Kutsong",
+     "拉祜語" 
+    ]
+  },
+  "lis":  {
+    "english":  [
+      "Lisu"
+    ],
+    "native":  [
+     "Lisu",
+     "Chedi",
+     "Chung",
+     "Khae" 
+    ]
+  },
+  "lit": {
     "english": [
       "Lithuanian"
     ],
@@ -3074,7 +3189,7 @@
       "Lietuvių Kalba"
     ]
   },
-  "lt":  {
+  "lt": {
     "english": [
       "Lithuanian"
     ],
@@ -3082,7 +3197,7 @@
       "Lietuvių Kalba"
     ]
   },
-  "lol":  {
+  "lol": {
     "english": [
       "Mongo"
     ],
@@ -3090,7 +3205,7 @@
       "Mongo"
     ]
   },
-  "loz":  {
+  "loz": {
     "english": [
       "Lozi"
     ],
@@ -3098,7 +3213,7 @@
       "Lozi"
     ]
   },
-  "ltz":  {
+  "ltz": {
     "english": [
       "Letzeburgesch",
       "Luxembourgish"
@@ -3108,7 +3223,7 @@
       "Luxembourgish"
     ]
   },
-  "lb":  {
+  "lb": {
     "english": [
       "Letzeburgesch",
       "Luxembourgish"
@@ -3118,7 +3233,7 @@
       "Luxembourgish"
     ]
   },
-  "lua":  {
+  "lua": {
     "english": [
       "Luba-Lulua"
     ],
@@ -3126,7 +3241,7 @@
       "Luba-Lulua"
     ]
   },
-  "lub":  {
+  "lub": {
     "english": [
       "Luba-Katanga"
     ],
@@ -3134,7 +3249,7 @@
       ""
     ]
   },
-  "lu":  {
+  "lu": {
     "english": [
       "Luba-Katanga"
     ],
@@ -3142,7 +3257,7 @@
       ""
     ]
   },
-  "lug":  {
+  "lug": {
     "english": [
       "Ganda"
     ],
@@ -3150,7 +3265,7 @@
       "Ganda"
     ]
   },
-  "lg":  {
+  "lg": {
     "english": [
       "Ganda"
     ],
@@ -3158,7 +3273,17 @@
       "Ganda"
     ]
   },
-  "lui":  {
+  "lsi":  {
+    "english":  [
+      "Lachid"
+    ],
+    "native":  [
+      "Lachid",
+      "Lacid",
+      "Lashi"
+    ]
+  },
+  "lui": {
     "english": [
       "Luiseno"
     ],
@@ -3166,7 +3291,7 @@
       "Luiseno"
     ]
   },
-  "lun":  {
+  "lun": {
     "english": [
       "Lunda"
     ],
@@ -3174,7 +3299,7 @@
       "Lunda"
     ]
   },
-  "luo":  {
+  "luo": {
     "english": [
       "Luo (Kenya And Tanzania)"
     ],
@@ -3182,7 +3307,7 @@
       "Luo (Kenya And Tanzania)"
     ]
   },
-  "lus":  {
+  "lus": {
     "english": [
       "Lushai"
     ],
@@ -3190,7 +3315,19 @@
       "Lushai"
     ]
   },
-  "mac":  {
+  "lwl":  {
+    "english":  [
+      "Lawa, Northern"
+    ],
+    "native":  [
+      "Lawa, Northern",
+      "Agutaman",
+      "Eastern Lawa",
+      "Lavua",
+      "ละว้าเหนือ"
+    ]
+  },
+  "mac": {
     "english": [
       "Macedonian"
     ],
@@ -3198,7 +3335,7 @@
       "македонски јазик"
     ]
   },
-  "mkd":  {
+  "mkd": {
     "english": [
       "Macedonian"
     ],
@@ -3206,7 +3343,7 @@
       "македонски јазик"
     ]
   },
-  "mk":  {
+  "mk": {
     "english": [
       "Macedonian"
     ],
@@ -3214,7 +3351,7 @@
       "македонски јазик"
     ]
   },
-  "mad":  {
+  "mad": {
     "english": [
       "Madurese"
     ],
@@ -3222,7 +3359,7 @@
       "Madurese"
     ]
   },
-  "mag":  {
+  "mag": {
     "english": [
       "Magahi"
     ],
@@ -3230,7 +3367,7 @@
       "Magahi"
     ]
   },
-  "mah":  {
+  "mah": {
     "english": [
       "Marshallese"
     ],
@@ -3238,7 +3375,7 @@
       "Kajin M̧ajeļ"
     ]
   },
-  "mh":  {
+  "mh": {
     "english": [
       "Marshallese"
     ],
@@ -3246,7 +3383,7 @@
       "Kajin M̧ajeļ"
     ]
   },
-  "mai":  {
+  "mai": {
     "english": [
       "Maithili"
     ],
@@ -3254,7 +3391,7 @@
       "Maithili"
     ]
   },
-  "mak":  {
+  "mak": {
     "english": [
       "Makasar"
     ],
@@ -3262,7 +3399,7 @@
       "Makasar"
     ]
   },
-  "mal":  {
+  "mal": {
     "english": [
       "Malayalam"
     ],
@@ -3270,7 +3407,7 @@
       "മലയാളം"
     ]
   },
-  "ml":  {
+  "ml": {
     "english": [
       "Malayalam"
     ],
@@ -3278,7 +3415,7 @@
       "മലയാളം"
     ]
   },
-  "man":  {
+  "man": {
     "english": [
       "Mandingo"
     ],
@@ -3286,7 +3423,7 @@
       "Mandingo"
     ]
   },
-  "mao":  {
+  "mao": {
     "english": [
       "Maori"
     ],
@@ -3294,7 +3431,7 @@
       "Maori"
     ]
   },
-  "mri":  {
+  "mri": {
     "english": [
       "Maori"
     ],
@@ -3302,7 +3439,7 @@
       "Maori"
     ]
   },
-  "mi":  {
+  "mi": {
     "english": [
       "Maori"
     ],
@@ -3310,7 +3447,7 @@
       "Maori"
     ]
   },
-  "map":  {
+  "map": {
     "english": [
       "Austronesian Languages"
     ],
@@ -3318,7 +3455,7 @@
       "Austronesian Languages"
     ]
   },
-  "mar":  {
+  "mar": {
     "english": [
       "Marathi"
     ],
@@ -3326,7 +3463,7 @@
       "Marathi"
     ]
   },
-  "mr":  {
+  "mr": {
     "english": [
       "Marathi"
     ],
@@ -3334,7 +3471,7 @@
       "Marathi"
     ]
   },
-  "mas":  {
+  "mas": {
     "english": [
       "Masai"
     ],
@@ -3342,7 +3479,7 @@
       "Masai"
     ]
   },
-  "may":  {
+  "may": {
     "english": [
       "Malay"
     ],
@@ -3351,7 +3488,7 @@
       "بهاس ملايو‎"
     ]
   },
-  "msa":  {
+  "msa": {
     "english": [
       "Malay"
     ],
@@ -3360,7 +3497,7 @@
       "بهاس ملايو‎"
     ]
   },
-  "ms":  {
+  "ms": {
     "english": [
       "Malay"
     ],
@@ -3369,7 +3506,7 @@
       "بهاس ملايو‎"
     ]
   },
-  "mdf":  {
+  "mdf": {
     "english": [
       "Moksha"
     ],
@@ -3377,7 +3514,7 @@
       "Moksha"
     ]
   },
-  "mdr":  {
+  "mdr": {
     "english": [
       "Mandar"
     ],
@@ -3385,7 +3522,7 @@
       "Mandar"
     ]
   },
-  "men":  {
+  "men": {
     "english": [
       "Mende"
     ],
@@ -3393,7 +3530,7 @@
       "Mende"
     ]
   },
-  "mga":  {
+  "mga": {
     "english": [
       "Irish Middle (900-1200)"
     ],
@@ -3401,7 +3538,7 @@
       "Irish Middle (900-1200)"
     ]
   },
-  "mic":  {
+  "mic": {
     "english": [
       "Mi'kmaq",
       "Micmac"
@@ -3411,7 +3548,7 @@
       "Micmac"
     ]
   },
-  "min":  {
+  "min": {
     "english": [
       "Minangkabau"
     ],
@@ -3419,7 +3556,7 @@
       "Minangkabau"
     ]
   },
-  "mis":  {
+  "mis": {
     "english": [
       "Uncoded Languages"
     ],
@@ -3427,7 +3564,7 @@
       "Uncoded Languages"
     ]
   },
-  "mkh":  {
+  "mkh": {
     "english": [
       "Mon-Khmer Languages"
     ],
@@ -3435,7 +3572,7 @@
       "Mon-Khmer Languages"
     ]
   },
-  "mlg":  {
+  "mlg": {
     "english": [
       "Malagasy"
     ],
@@ -3443,7 +3580,7 @@
       "Malagasy Fiteny"
     ]
   },
-  "mg":  {
+  "mg": {
     "english": [
       "Malagasy"
     ],
@@ -3451,7 +3588,7 @@
       "Malagasy Fiteny"
     ]
   },
-  "mlt":  {
+  "mlt": {
     "english": [
       "Maltese"
     ],
@@ -3459,7 +3596,7 @@
       "Malti"
     ]
   },
-  "mt":  {
+  "mt": {
     "english": [
       "Maltese"
     ],
@@ -3467,7 +3604,7 @@
       "Malti"
     ]
   },
-  "mnc":  {
+  "mnc": {
     "english": [
       "Manchu"
     ],
@@ -3475,7 +3612,7 @@
       "Manchu"
     ]
   },
-  "mni":  {
+  "mni": {
     "english": [
       "Manipuri"
     ],
@@ -3483,7 +3620,18 @@
       "Manipuri"
     ]
   },
-  "mno":  {
+  "mnn":  {
+    "english":  [
+      "Mnong, Sothern"
+    ],
+    "native":  [
+     "Mnong, Sothern",
+     "Bu Noong",
+     "Mnong",
+     "Mnong Nong" 
+    ]
+  },
+  "mno": {
     "english": [
       "Manobo Languages"
     ],
@@ -3491,7 +3639,7 @@
       "Manobo Languages"
     ]
   },
-  "moh":  {
+  "moh": {
     "english": [
       "Mohawk"
     ],
@@ -3499,7 +3647,7 @@
       "Mohawk"
     ]
   },
-  "mon":  {
+  "mon": {
     "english": [
       "Mongolian"
     ],
@@ -3507,15 +3655,7 @@
       "монгол"
     ]
   },
-  "mos":  {
-    "english": [
-      "moré"
-    ],
-    "native": [
-      "Mossi"
-    ]
-  },
-  "mn":  {
+  "mn": {
     "english": [
       "Mongolian"
     ],
@@ -3523,7 +3663,19 @@
       "монгол"
     ]
   },
-  "mos":  {
+  "mnw":  {
+    "english":  [
+      "Mon"
+    ],
+    "native":  [
+      "Mon",
+      "Aleng",
+      "Mou",
+      "Rman",
+      "မွန်"
+    ]
+  },
+  "mos": {
     "english": [
       "Mossi"
     ],
@@ -3531,7 +3683,7 @@
       "Mossi"
     ]
   },
-  "mul":  {
+  "mul": {
     "english": [
       "Multiple Languages"
     ],
@@ -3539,7 +3691,7 @@
       "Multiple Languages"
     ]
   },
-  "mun":  {
+  "mun": {
     "english": [
       "Munda Languages"
     ],
@@ -3547,7 +3699,7 @@
       "Munda Languages"
     ]
   },
-  "mus":  {
+  "mus": {
     "english": [
       "Creek"
     ],
@@ -3555,7 +3707,7 @@
       "Creek"
     ]
   },
-  "mwl":  {
+  "mwl": {
     "english": [
       "Mirandese"
     ],
@@ -3563,7 +3715,19 @@
       "Mirandese"
     ]
   },
-  "mwr":  {
+  "mwww":  {
+    "english":  [
+      "Hmong Daw"
+    ],
+    "native":  [
+      "Hmong Daw",
+      "Banded Arm Hmong",
+      "Forest Miao",
+      "Hmong",
+      "Hmongb Dleub"
+    ]
+  },
+  "mwr": {
     "english": [
       "Marwari"
     ],
@@ -3571,7 +3735,18 @@
       "Marwari"
     ]
   },
-  "myn":  {
+  "mya":  {
+    "english":  [
+      "Burmese"
+    ],
+    "native":  [
+      "Burmese",
+      "Bama",
+      "Bamachaka",
+      "زبان برمه‌ای"
+    ]
+  },
+  "myn": {
     "english": [
       "Mayan Languages"
     ],
@@ -3579,7 +3754,7 @@
       "Mayan Languages"
     ]
   },
-  "myv":  {
+  "myv": {
     "english": [
       "Erzya"
     ],
@@ -3587,7 +3762,7 @@
       "Erzya"
     ]
   },
-  "nah":  {
+  "nah": {
     "english": [
       "Nahuatl Languages"
     ],
@@ -3595,7 +3770,7 @@
       "Nahuatl Languages"
     ]
   },
-  "nai":  {
+  "nai": {
     "english": [
       "North American Indian Languages"
     ],
@@ -3603,7 +3778,7 @@
       "North American Indian Languages"
     ]
   },
-  "nap":  {
+  "nap": {
     "english": [
       "Neapolitan"
     ],
@@ -3611,7 +3786,7 @@
       "Neapolitan"
     ]
   },
-  "nau":  {
+  "nau": {
     "english": [
       "Nauru"
     ],
@@ -3619,7 +3794,7 @@
       "Ekakairũ Naoero"
     ]
   },
-  "na":  {
+  "na": {
     "english": [
       "Nauru"
     ],
@@ -3627,7 +3802,7 @@
       "Ekakairũ Naoero"
     ]
   },
-  "nav":  {
+  "nav": {
     "english": [
       "Navaho",
       "Navajo"
@@ -3637,7 +3812,7 @@
       "Navajo"
     ]
   },
-  "nv":  {
+  "nv": {
     "english": [
       "Navaho",
       "Navajo"
@@ -3647,7 +3822,7 @@
       "Navajo"
     ]
   },
-  "nbl":  {
+  "nbl": {
     "english": [
       "Ndebele",
       "South"
@@ -3657,7 +3832,7 @@
       "South"
     ]
   },
-  "nr":  {
+  "nr": {
     "english": [
       "Ndebele",
       "South"
@@ -3667,7 +3842,7 @@
       "South"
     ]
   },
-  "nde":  {
+  "nde": {
     "english": [
       "Ndebele",
       "North"
@@ -3677,7 +3852,7 @@
       "North"
     ]
   },
-  "nd":  {
+  "nd": {
     "english": [
       "Ndebele",
       "North"
@@ -3687,7 +3862,7 @@
       "North"
     ]
   },
-  "ndo":  {
+  "ndo": {
     "english": [
       "Ndonga"
     ],
@@ -3695,7 +3870,7 @@
       "Owambo"
     ]
   },
-  "ng":  {
+  "ng": {
     "english": [
       "Ndonga"
     ],
@@ -3703,7 +3878,7 @@
       "Owambo"
     ]
   },
-  "nds":  {
+  "nds": {
     "english": [
       "Low",
       "Saxon"
@@ -3713,7 +3888,7 @@
       "Saxon"
     ]
   },
-  "nep":  {
+  "nep": {
     "english": [
       "Nepali"
     ],
@@ -3721,7 +3896,7 @@
       "नेपाली"
     ]
   },
-  "ne":  {
+  "ne": {
     "english": [
       "Nepali"
     ],
@@ -3729,7 +3904,7 @@
       "नेपाली"
     ]
   },
-  "new":  {
+  "new": {
     "english": [
       "Nepal Bhasa",
       "Newari"
@@ -3739,7 +3914,7 @@
       "Newari"
     ]
   },
-  "nia":  {
+  "nia": {
     "english": [
       "Nias"
     ],
@@ -3747,7 +3922,7 @@
       "Nias"
     ]
   },
-  "nic":  {
+  "nic": {
     "english": [
       "Niger-Kordofanian Languages"
     ],
@@ -3755,7 +3930,7 @@
       "Niger-Kordofanian Languages"
     ]
   },
-  "niu":  {
+  "niu": {
     "english": [
       "Niuean"
     ],
@@ -3763,7 +3938,7 @@
       "Niuean"
     ]
   },
-  "nno":  {
+  "nno": {
     "english": [
       "Norwegian",
       "Nynorsk"
@@ -3773,7 +3948,7 @@
       "Nynorsk"
     ]
   },
-  "nn":  {
+  "nn": {
     "english": [
       "Norwegian",
       "Nynorsk"
@@ -3783,7 +3958,7 @@
       "Nynorsk"
     ]
   },
-  "nob":  {
+  "nob": {
     "english": [
       "Bokmål",
       "Norwegian"
@@ -3793,7 +3968,7 @@
       "Norwegian"
     ]
   },
-  "nb":  {
+  "nb": {
     "english": [
       "Bokmål",
       "Norwegian"
@@ -3803,7 +3978,18 @@
       "Norwegian"
     ]
   },
-  "nog":  {
+  "nod":  {
+    "english":  [
+      "Nogai"
+    ],
+    "native":  [
+      "Nogai",
+      "Bahasa Nogai",
+      "Karanogai",
+      "زبان نوقایی"  
+    ]
+  },
+  "nog": {
     "english": [
       "Nogai"
     ],
@@ -3811,7 +3997,7 @@
       "Nogai"
     ]
   },
-  "non":  {
+  "non": {
     "english": [
       "Norse",
       "Old"
@@ -3821,7 +4007,7 @@
       "Old"
     ]
   },
-  "nor":  {
+  "nor": {
     "english": [
       "Norwegian"
     ],
@@ -3829,7 +4015,7 @@
       "Norsk"
     ]
   },
-  "no":  {
+  "no": {
     "english": [
       "Norwegian"
     ],
@@ -3837,7 +4023,7 @@
       "Norsk"
     ]
   },
-  "nqo":  {
+  "nqo": {
     "english": [
       "N'Ko"
     ],
@@ -3845,7 +4031,7 @@
       "N'Ko"
     ]
   },
-  "nso":  {
+  "nso": {
     "english": [
       "Northern Sotho",
       "Pedi",
@@ -3857,7 +4043,7 @@
       "Sepedi"
     ]
   },
-  "nub":  {
+  "nub": {
     "english": [
       "Nubian Languages"
     ],
@@ -3865,7 +4051,7 @@
       "Nubian Languages"
     ]
   },
-  "nwc":  {
+  "nwc": {
     "english": [
       "Classical Nepal Bhasa",
       "Classical Newari",
@@ -3877,7 +4063,7 @@
       "Old Newari"
     ]
   },
-  "nya":  {
+  "nya": {
     "english": [
       "Chewa",
       "Chichewa",
@@ -3888,7 +4074,7 @@
       "Chinyanja"
     ]
   },
-  "ny":  {
+  "ny": {
     "english": [
       "Chewa",
       "Chichewa",
@@ -3899,7 +4085,7 @@
       "Chinyanja"
     ]
   },
-  "nym":  {
+  "nym": {
     "english": [
       "Nyamwezi"
     ],
@@ -3907,7 +4093,7 @@
       "Nyamwezi"
     ]
   },
-  "nyn":  {
+  "nyn": {
     "english": [
       "Nyankole"
     ],
@@ -3915,7 +4101,7 @@
       "Nyankole"
     ]
   },
-  "nyo":  {
+  "nyo": {
     "english": [
       "Nyoro"
     ],
@@ -3923,7 +4109,7 @@
       "Nyoro"
     ]
   },
-  "nzi":  {
+  "nzi": {
     "english": [
       "Nzima"
     ],
@@ -3931,7 +4117,7 @@
       "Nzima"
     ]
   },
-  "oci":  {
+  "oci": {
     "english": [
       "Occitan (post 1500)",
       "Provençal"
@@ -3941,7 +4127,7 @@
       "Provençal"
     ]
   },
-  "oc":  {
+  "oc": {
     "english": [
       "Occitan (post 1500)",
       "Provençal"
@@ -3951,7 +4137,7 @@
       "Provençal"
     ]
   },
-  "oji":  {
+  "oji": {
     "english": [
       "Ojibwa"
     ],
@@ -3959,7 +4145,7 @@
       "Ojibwa"
     ]
   },
-  "oj":  {
+  "oj": {
     "english": [
       "Ojibwa"
     ],
@@ -3967,7 +4153,7 @@
       "Ojibwa"
     ]
   },
-  "ori":  {
+  "ori": {
     "english": [
       "Oriya"
     ],
@@ -3975,7 +4161,7 @@
       "ଓଡ଼ିଆ"
     ]
   },
-  "or":  {
+  "or": {
     "english": [
       "Oriya"
     ],
@@ -3983,7 +4169,7 @@
       "ଓଡ଼ିଆ"
     ]
   },
-  "orm":  {
+  "orm": {
     "english": [
       "Oromo"
     ],
@@ -3991,7 +4177,7 @@
       "Afaan Oromoo"
     ]
   },
-  "om":  {
+  "om": {
     "english": [
       "Oromo"
     ],
@@ -3999,7 +4185,7 @@
       "Afaan Oromoo"
     ]
   },
-  "osa":  {
+  "osa": {
     "english": [
       "Osage"
     ],
@@ -4007,7 +4193,7 @@
       "Osage"
     ]
   },
-  "oss":  {
+  "oss": {
     "english": [
       "Ossetian",
       "Ossetic"
@@ -4017,7 +4203,7 @@
       "Ossetic"
     ]
   },
-  "os":  {
+  "os": {
     "english": [
       "Ossetian",
       "Ossetic"
@@ -4027,7 +4213,7 @@
       "Ossetic"
     ]
   },
-  "ota":  {
+  "ota": {
     "english": [
       "Turkish Ottoman (1500-1928)"
     ],
@@ -4035,7 +4221,7 @@
       "Turkish Ottoman (1500-1928)"
     ]
   },
-  "oto":  {
+  "oto": {
     "english": [
       "Otomian Languages"
     ],
@@ -4043,7 +4229,7 @@
       "Otomian Languages"
     ]
   },
-  "paa":  {
+  "paa": {
     "english": [
       "Papuan Languages"
     ],
@@ -4051,7 +4237,7 @@
       "Papuan Languages"
     ]
   },
-  "pag":  {
+  "pag": {
     "english": [
       "Pangasinan"
     ],
@@ -4059,7 +4245,7 @@
       "Pangasinan"
     ]
   },
-  "pal":  {
+  "pal": {
     "english": [
       "Pahlavi"
     ],
@@ -4067,7 +4253,7 @@
       "Pahlavi"
     ]
   },
-  "pam":  {
+  "pam": {
     "english": [
       "Kapampangan",
       "Pampanga"
@@ -4077,7 +4263,7 @@
       "Pampanga"
     ]
   },
-  "pan":  {
+  "pan": {
     "english": [
       "Panjabi",
       "Punjabi"
@@ -4087,7 +4273,7 @@
       "Punjabi"
     ]
   },
-  "pa":  {
+  "pa": {
     "english": [
       "Panjabi",
       "Punjabi"
@@ -4097,7 +4283,7 @@
       "Punjabi"
     ]
   },
-  "pap":  {
+  "pap": {
     "english": [
       "Papiamento"
     ],
@@ -4105,7 +4291,7 @@
       "Papiamento"
     ]
   },
-  "pau":  {
+  "pau": {
     "english": [
       "Palauan"
     ],
@@ -4113,7 +4299,7 @@
       "Palauan"
     ]
   },
-  "peo":  {
+  "peo": {
     "english": [
       "Persian Old (ca.600-400 B.C.)"
     ],
@@ -4121,7 +4307,7 @@
       "Persian Old (ca.600-400 B.C.)"
     ]
   },
-  "per":  {
+  "per": {
     "english": [
       "Persian"
     ],
@@ -4129,7 +4315,7 @@
       "فارسی"
     ]
   },
-  "fas":  {
+  "fas": {
     "english": [
       "Persian"
     ],
@@ -4137,7 +4323,7 @@
       "فارسی"
     ]
   },
-  "fa":  {
+  "fa": {
     "english": [
       "Persian"
     ],
@@ -4145,7 +4331,7 @@
       "فارسی"
     ]
   },
-  "phi":  {
+  "phi": {
     "english": [
       "Philippine Languages"
     ],
@@ -4153,7 +4339,7 @@
       "Philippine Languages"
     ]
   },
-  "phn":  {
+  "phn": {
     "english": [
       "Phoenician"
     ],
@@ -4161,7 +4347,7 @@
       "Phoenician"
     ]
   },
-  "pli":  {
+  "pli": {
     "english": [
       "Pali"
     ],
@@ -4169,7 +4355,7 @@
       "Pali"
     ]
   },
-  "pi":  {
+  "pi": {
     "english": [
       "Pali"
     ],
@@ -4177,7 +4363,7 @@
       "Pali"
     ]
   },
-  "pol":  {
+  "pol": {
     "english": [
       "Polish"
     ],
@@ -4185,7 +4371,7 @@
       "Polski"
     ]
   },
-  "pl":  {
+  "pl": {
     "english": [
       "Polish"
     ],
@@ -4193,7 +4379,7 @@
       "Polski"
     ]
   },
-  "pon":  {
+  "pon": {
     "english": [
       "Pohnpeian"
     ],
@@ -4201,7 +4387,7 @@
       "Pohnpeian"
     ]
   },
-  "por":  {
+  "por": {
     "english": [
       "Portuguese"
     ],
@@ -4209,7 +4395,7 @@
       "Português"
     ]
   },
-  "pt":  {
+  "pt": {
     "english": [
       "Portuguese"
     ],
@@ -4217,7 +4403,7 @@
       "Português"
     ]
   },
-  "pra":  {
+  "pra": {
     "english": [
       "Prakrit Languages"
     ],
@@ -4225,7 +4411,7 @@
       "Prakrit Languages"
     ]
   },
-  "pro":  {
+  "pro": {
     "english": [
       "Provençal Old (to 1500)"
     ],
@@ -4233,7 +4419,7 @@
       "Provençal Old (to 1500)"
     ]
   },
-  "pus":  {
+  "pus": {
     "english": [
       "Pashto",
       "Pushto"
@@ -4243,7 +4429,7 @@
       "Pushto"
     ]
   },
-  "ps":  {
+  "ps": {
     "english": [
       "Pashto",
       "Pushto"
@@ -4253,23 +4439,7 @@
       "Pushto"
     ]
   },
-  "que":  {
-    "english": [
-      "quechua"
-    ],
-    "native": [
-      "Quechua"
-    ]
-  },
-  "raj":  {
-    "english": [
-      "rajasthani"
-    ],
-    "native": [
-      "Rajasthani"
-    ]
-  },
-  "qaa-qtz":  {
+  "qaa-qtz": {
     "english": [
       "Reserved For Local Use"
     ],
@@ -4277,7 +4447,7 @@
       "Reserved For Local Use"
     ]
   },
-  "que":  {
+  "que": {
     "english": [
       "Quechua"
     ],
@@ -4286,7 +4456,7 @@
       "Runa Simi"
     ]
   },
-  "qu":  {
+  "qu": {
     "english": [
       "Quechua"
     ],
@@ -4295,7 +4465,18 @@
       "Runa Simi"
     ]
   },
-  "raj":  {
+  "rai":  {
+    "english":  [
+      "Ramoaaina"
+    ],
+    "native":  [
+      "Ramoaaina",
+      "Duke of York",
+      "Malu",
+      "Ramuaina"  
+    ]
+  },
+  "raj": {
     "english": [
       "Rajasthani"
     ],
@@ -4303,7 +4484,7 @@
       "Rajasthani"
     ]
   },
-  "rap":  {
+  "rap": {
     "english": [
       "Rapanui"
     ],
@@ -4311,7 +4492,7 @@
       "Rapanui"
     ]
   },
-  "rar":  {
+  "rar": {
     "english": [
       "Cook Islands Maori",
       "Rarotongan"
@@ -4321,7 +4502,18 @@
       "Rarotongan"
     ]
   },
-  "roa":  {
+  "rki":  {
+    "english":  [
+      "Rakhine"
+    ],
+    "native":  [
+      "Rakhine",
+      "Rakhaing",
+      "Rakkhaine",
+      "ရခိုင်"
+    ]
+  },
+  "roa": {
     "english": [
       "Romance Languages"
     ],
@@ -4329,7 +4521,7 @@
       "Romance Languages"
     ]
   },
-  "roh":  {
+  "roh": {
     "english": [
       "Romansh"
     ],
@@ -4337,7 +4529,7 @@
       "Rumantsch Grischun"
     ]
   },
-  "rm":  {
+  "rm": {
     "english": [
       "Romansh"
     ],
@@ -4345,7 +4537,7 @@
       "Rumantsch Grischun"
     ]
   },
-  "rom":  {
+  "rom": {
     "english": [
       "Romany"
     ],
@@ -4353,7 +4545,7 @@
       "Romany"
     ]
   },
-  "rum":  {
+  "rum": {
     "english": [
       "Moldavian",
       "Moldovan",
@@ -4365,7 +4557,7 @@
       "Romanian"
     ]
   },
-  "ron":  {
+  "ron": {
     "english": [
       "Moldavian",
       "Moldovan",
@@ -4377,7 +4569,7 @@
       "Romanian"
     ]
   },
-  "ro":  {
+  "ro": {
     "english": [
       "Moldavian",
       "Moldovan",
@@ -4389,15 +4581,7 @@
       "Romanian"
     ]
   },
-  "run":  {
-    "english": [
-      "Rundi"
-    ],
-    "native": [
-      "Rundi"
-    ]
-  },
-  "rn":  {
+  "run": {
     "english": [
       "Rundi"
     ],
@@ -4405,7 +4589,15 @@
       "Rundi"
     ]
   },
-  "rup":  {
+  "rn": {
+    "english": [
+      "Rundi"
+    ],
+    "native": [
+      "Rundi"
+    ]
+  },
+  "rup": {
     "english": [
       "Aromanian",
       "Arumanian",
@@ -4417,7 +4609,7 @@
       "Macedo-Romanian"
     ]
   },
-  "rus":  {
+  "rus": {
     "english": [
       "Russian"
     ],
@@ -4425,7 +4617,7 @@
       "русский язык"
     ]
   },
-  "ru":  {
+  "ru": {
     "english": [
       "Russian"
     ],
@@ -4433,7 +4625,7 @@
       "русский язык"
     ]
   },
-  "sad":  {
+  "sad": {
     "english": [
       "Sandawe"
     ],
@@ -4441,7 +4633,7 @@
       "Sandawe"
     ]
   },
-  "sag":  {
+  "sag": {
     "english": [
       "Sango"
     ],
@@ -4449,7 +4641,7 @@
       "Yângâ Tî Sängö"
     ]
   },
-  "sg":  {
+  "sg": {
     "english": [
       "Sango"
     ],
@@ -4457,7 +4649,7 @@
       "Yângâ Tî Sängö"
     ]
   },
-  "sah":  {
+  "sah": {
     "english": [
       "Yakut"
     ],
@@ -4465,7 +4657,7 @@
       "Yakut"
     ]
   },
-  "sai":  {
+  "sai": {
     "english": [
       "South American Indian (Other)"
     ],
@@ -4473,7 +4665,7 @@
       "South American Indian (Other)"
     ]
   },
-  "sal":  {
+  "sal": {
     "english": [
       "Salishan Languages"
     ],
@@ -4481,7 +4673,7 @@
       "Salishan Languages"
     ]
   },
-  "sam":  {
+  "sam": {
     "english": [
       "Samaritan Aramaic"
     ],
@@ -4489,7 +4681,7 @@
       "Samaritan Aramaic"
     ]
   },
-  "san":  {
+  "san": {
     "english": [
       "Sanskrit"
     ],
@@ -4497,7 +4689,7 @@
       "Sanskrit"
     ]
   },
-  "sa":  {
+  "sa": {
     "english": [
       "Sanskrit"
     ],
@@ -4505,7 +4697,7 @@
       "Sanskrit"
     ]
   },
-  "sas":  {
+  "sas": {
     "english": [
       "Sasak"
     ],
@@ -4513,7 +4705,7 @@
       "Sasak"
     ]
   },
-  "sat":  {
+  "sat": {
     "english": [
       "Santali"
     ],
@@ -4521,7 +4713,7 @@
       "Santali"
     ]
   },
-  "scn":  {
+  "scn": {
     "english": [
       "Sicilian"
     ],
@@ -4529,7 +4721,7 @@
       "Sicilian"
     ]
   },
-  "sco":  {
+  "sco": {
     "english": [
       "Scots"
     ],
@@ -4537,7 +4729,7 @@
       "Scots"
     ]
   },
-  "sel":  {
+  "sel": {
     "english": [
       "Selkup"
     ],
@@ -4545,7 +4737,7 @@
       "Selkup"
     ]
   },
-  "sem":  {
+  "sem": {
     "english": [
       "Semitic Languages"
     ],
@@ -4553,7 +4745,7 @@
       "Semitic Languages"
     ]
   },
-  "sga":  {
+  "sga": {
     "english": [
       "Irish Old (to 900)"
     ],
@@ -4561,7 +4753,7 @@
       "Irish Old (to 900)"
     ]
   },
-  "sgn":  {
+  "sgn": {
     "english": [
       "Sign Languages"
     ],
@@ -4569,7 +4761,7 @@
       "Sign Languages"
     ]
   },
-  "shn":  {
+  "shn": {
     "english": [
       "Shan"
     ],
@@ -4577,7 +4769,7 @@
       "Shan"
     ]
   },
-  "sid":  {
+  "sid": {
     "english": [
       "Sidamo"
     ],
@@ -4585,7 +4777,7 @@
       "Sidamo"
     ]
   },
-  "sin":  {
+  "sin": {
     "english": [
       "Sinhala",
       "Sinhalese"
@@ -4595,7 +4787,7 @@
       "Sinhalese"
     ]
   },
-  "si":  {
+  "si": {
     "english": [
       "Sinhala",
       "Sinhalese"
@@ -4605,7 +4797,7 @@
       "Sinhalese"
     ]
   },
-  "sio":  {
+  "sio": {
     "english": [
       "Siouan Languages"
     ],
@@ -4613,7 +4805,7 @@
       "Siouan Languages"
     ]
   },
-  "sit":  {
+  "sit": {
     "english": [
       "Sino-Tibetan Languages"
     ],
@@ -4621,7 +4813,7 @@
       "Sino-Tibetan Languages"
     ]
   },
-  "sla":  {
+  "sla": {
     "english": [
       "Slavic Languages"
     ],
@@ -4629,7 +4821,7 @@
       "Slavic Languages"
     ]
   },
-  "slo":  {
+  "slo": {
     "english": [
       "Slovak"
     ],
@@ -4637,7 +4829,7 @@
       "Slovenčina"
     ]
   },
-  "slk":  {
+  "slk": {
     "english": [
       "Slovak"
     ],
@@ -4645,7 +4837,7 @@
       "Slovenčina"
     ]
   },
-  "sk":  {
+  "sk": {
     "english": [
       "Slovak"
     ],
@@ -4653,7 +4845,7 @@
       "Slovenčina"
     ]
   },
-  "slv":  {
+  "slv": {
     "english": [
       "Slovenian"
     ],
@@ -4661,7 +4853,7 @@
       "Slovenian"
     ]
   },
-  "sl":  {
+  "sl": {
     "english": [
       "Slovenian"
     ],
@@ -4669,7 +4861,7 @@
       "Slovenian"
     ]
   },
-  "sma":  {
+  "sma": {
     "english": [
       "Southern Sami"
     ],
@@ -4677,7 +4869,7 @@
       "Southern Sami"
     ]
   },
-  "sme":  {
+  "sme": {
     "english": [
       "Northern Sami"
     ],
@@ -4685,7 +4877,7 @@
       "Davvisámegiella"
     ]
   },
-  "se":  {
+  "se": {
     "english": [
       "Northern Sami"
     ],
@@ -4693,7 +4885,7 @@
       "Davvisámegiella"
     ]
   },
-  "smi":  {
+  "smi": {
     "english": [
       "Sami Languages"
     ],
@@ -4701,7 +4893,7 @@
       "Sami Languages"
     ]
   },
-  "smj":  {
+  "smj": {
     "english": [
       "Lule Sami"
     ],
@@ -4709,7 +4901,7 @@
       "Lule Sami"
     ]
   },
-  "smn":  {
+  "smn": {
     "english": [
       "Inari Sami"
     ],
@@ -4717,7 +4909,7 @@
       "Inari Sami"
     ]
   },
-  "smo":  {
+  "smo": {
     "english": [
       "Samoan"
     ],
@@ -4725,7 +4917,7 @@
       "Gagana Faa Samoa"
     ]
   },
-  "sm":  {
+  "sm": {
     "english": [
       "Samoan"
     ],
@@ -4733,7 +4925,7 @@
       "Gagana Faa Samoa"
     ]
   },
-  "sms":  {
+  "sms": {
     "english": [
       "Skolt Sami"
     ],
@@ -4741,7 +4933,7 @@
       "Skolt Sami"
     ]
   },
-  "sna":  {
+  "sna": {
     "english": [
       "Shona"
     ],
@@ -4749,7 +4941,7 @@
       "ChiShona"
     ]
   },
-  "sn":  {
+  "sn": {
     "english": [
       "Shona"
     ],
@@ -4757,7 +4949,7 @@
       "ChiShona"
     ]
   },
-  "snd":  {
+  "snd": {
     "english": [
       "Sindhi"
     ],
@@ -4766,7 +4958,7 @@
       "सिन्धी"
     ]
   },
-  "sd":  {
+  "sd": {
     "english": [
       "Sindhi"
     ],
@@ -4775,7 +4967,7 @@
       "सिन्धी"
     ]
   },
-  "snk":  {
+  "snk": {
     "english": [
       "Soninke"
     ],
@@ -4783,7 +4975,7 @@
       "Soninke"
     ]
   },
-  "sog":  {
+  "sog": {
     "english": [
       "Sogdian"
     ],
@@ -4791,7 +4983,7 @@
       "Sogdian"
     ]
   },
-  "som":  {
+  "som": {
     "english": [
       "Somali"
     ],
@@ -4800,7 +4992,7 @@
       "Soomaaliga"
     ]
   },
-  "so":  {
+  "so": {
     "english": [
       "Somali"
     ],
@@ -4809,7 +5001,7 @@
       "Soomaaliga"
     ]
   },
-  "son":  {
+  "son": {
     "english": [
       "Songhai Languages"
     ],
@@ -4817,7 +5009,7 @@
       "Songhai Languages"
     ]
   },
-  "sot":  {
+  "sot": {
     "english": [
       "Sotho",
       "Southern"
@@ -4827,7 +5019,7 @@
       "Southern"
     ]
   },
-  "st":  {
+  "st": {
     "english": [
       "Sotho",
       "Southern"
@@ -4837,7 +5029,18 @@
       "Southern"
     ]
   },
-  "spa":  {
+  "sou":  {
+    "english":  [
+      "Southern Thai"
+    ],
+    "native":  [
+      "Southern Thai",
+      "Dambro",
+      "Pak Tai",
+      "ไทยใต้"
+    ]
+  },
+  "spa": {
     "english": [
       "Castilian",
       "Spanish"
@@ -4847,7 +5050,7 @@
       "Español"
     ]
   },
-  "es":  {
+  "es": {
     "english": [
       "Spanish"
     ],
@@ -4855,7 +5058,7 @@
       "Español"
     ]
   },
-  "srd":  {
+  "srd": {
     "english": [
       "Sardinian"
     ],
@@ -4863,7 +5066,7 @@
       "Sardu"
     ]
   },
-  "sc":  {
+  "sc": {
     "english": [
       "Sardinian"
     ],
@@ -4871,7 +5074,7 @@
       "Sardu"
     ]
   },
-  "srn":  {
+  "srn": {
     "english": [
       "Sranan Tongo"
     ],
@@ -4879,7 +5082,7 @@
       "Sranan Tongo"
     ]
   },
-  "srp":  {
+  "srp": {
     "english": [
       "Serbian"
     ],
@@ -4887,7 +5090,7 @@
       "српски језик"
     ]
   },
-  "sr":  {
+  "sr": {
     "english": [
       "Serbian"
     ],
@@ -4895,7 +5098,7 @@
       "српски језик"
     ]
   },
-  "srr":  {
+  "srr": {
     "english": [
       "Serer"
     ],
@@ -4903,7 +5106,7 @@
       "Serer"
     ]
   },
-  "ssa":  {
+  "ssa": {
     "english": [
       "Nilo-Saharan Languages"
     ],
@@ -4911,7 +5114,7 @@
       "Nilo-Saharan Languages"
     ]
   },
-  "ssw":  {
+  "ssw": {
     "english": [
       "Swati"
     ],
@@ -4919,7 +5122,7 @@
       "SiSwati"
     ]
   },
-  "ss":  {
+  "ss": {
     "english": [
       "Swati"
     ],
@@ -4927,7 +5130,7 @@
       "SiSwati"
     ]
   },
-  "suk":  {
+  "suk": {
     "english": [
       "Sukuma"
     ],
@@ -4935,7 +5138,7 @@
       "Sukuma"
     ]
   },
-  "sun":  {
+  "sun": {
     "english": [
       "Sundanese"
     ],
@@ -4943,7 +5146,7 @@
       "Basa Sunda"
     ]
   },
-  "su":  {
+  "su": {
     "english": [
       "Sundanese"
     ],
@@ -4951,7 +5154,7 @@
       "Basa Sunda"
     ]
   },
-  "sus":  {
+  "sus": {
     "english": [
       "Susu"
     ],
@@ -4959,7 +5162,7 @@
       "Susu"
     ]
   },
-  "sux":  {
+  "sux": {
     "english": [
       "Sumerian"
     ],
@@ -4967,7 +5170,7 @@
       "Sumerian"
     ]
   },
-  "swa":  {
+  "swa": {
     "english": [
       "Swahili"
     ],
@@ -4975,7 +5178,7 @@
       "Kiswahili"
     ]
   },
-  "sw":  {
+  "sw": {
     "english": [
       "Swahili"
     ],
@@ -4983,7 +5186,7 @@
       "Kiswahili"
     ]
   },
-  "swe":  {
+  "swe": {
     "english": [
       "Swedish"
     ],
@@ -4991,7 +5194,7 @@
       "Svenska"
     ]
   },
-  "sv":  {
+  "sv": {
     "english": [
       "Swedish"
     ],
@@ -4999,7 +5202,7 @@
       "Svenska"
     ]
   },
-  "syc":  {
+  "syc": {
     "english": [
       "Classical Syriac"
     ],
@@ -5007,7 +5210,7 @@
       "Classical Syriac"
     ]
   },
-  "syr":  {
+  "syr": {
     "english": [
       "Syriac"
     ],
@@ -5015,7 +5218,7 @@
       "Syriac"
     ]
   },
-  "tah":  {
+  "tah": {
     "english": [
       "Tahitian"
     ],
@@ -5023,7 +5226,7 @@
       "Reo Tahiti"
     ]
   },
-  "ty":  {
+  "ty": {
     "english": [
       "Tahitian"
     ],
@@ -5031,7 +5234,7 @@
       "Reo Tahiti"
     ]
   },
-  "tai":  {
+  "tai": {
     "english": [
       "Tai Languages"
     ],
@@ -5039,7 +5242,7 @@
       "Tai Languages"
     ]
   },
-  "tam":  {
+  "tam": {
     "english": [
       "Tamil"
     ],
@@ -5047,7 +5250,7 @@
       "தமிழ்"
     ]
   },
-  "ta":  {
+  "ta": {
     "english": [
       "Tamil"
     ],
@@ -5055,7 +5258,7 @@
       "தமிழ்"
     ]
   },
-  "tat":  {
+  "tat": {
     "english": [
       "Tatar"
     ],
@@ -5065,7 +5268,7 @@
       "تاتارچا‎"
     ]
   },
-  "tt":  {
+  "tt": {
     "english": [
       "Tatar"
     ],
@@ -5075,7 +5278,7 @@
       "تاتارچا‎"
     ]
   },
-  "tel":  {
+  "tel": {
     "english": [
       "Telugu"
     ],
@@ -5083,7 +5286,7 @@
       "తెలుగు"
     ]
   },
-  "te":  {
+  "te": {
     "english": [
       "Telugu"
     ],
@@ -5091,7 +5294,7 @@
       "తెలుగు"
     ]
   },
-  "tem":  {
+  "tem": {
     "english": [
       "Timne"
     ],
@@ -5099,7 +5302,7 @@
       "Timne"
     ]
   },
-  "ter":  {
+  "ter": {
     "english": [
       "Tereno"
     ],
@@ -5107,7 +5310,7 @@
       "Tereno"
     ]
   },
-  "tet":  {
+  "tet": {
     "english": [
       "Tetum"
     ],
@@ -5115,7 +5318,7 @@
       "Tetum"
     ]
   },
-  "tgk":  {
+  "tgk": {
     "english": [
       "Tajik"
     ],
@@ -5125,7 +5328,7 @@
       "تاجیکی‎"
     ]
   },
-  "tg":  {
+  "tg": {
     "english": [
       "Tajik"
     ],
@@ -5135,7 +5338,7 @@
       "تاجیکی‎"
     ]
   },
-  "tgl":  {
+  "tgl": {
     "english": [
       "Tagalog"
     ],
@@ -5144,7 +5347,7 @@
       "ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔"
     ]
   },
-  "tl":  {
+  "tl": {
     "english": [
       "Tagalog"
     ],
@@ -5153,7 +5356,7 @@
       "ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔"
     ]
   },
-  "tha":  {
+  "tha": {
     "english": [
       "Thai"
     ],
@@ -5161,7 +5364,7 @@
       "ไทย"
     ]
   },
-  "th":  {
+  "th": {
     "english": [
       "Thai"
     ],
@@ -5169,7 +5372,7 @@
       "ไทย"
     ]
   },
-  "tib":  {
+  "tib": {
     "english": [
       "Tibetan"
     ],
@@ -5177,7 +5380,7 @@
       "Tibetan"
     ]
   },
-  "bod":  {
+  "bod": {
     "english": [
       "Tibetan"
     ],
@@ -5185,7 +5388,7 @@
       "Tibetan"
     ]
   },
-  "bo":  {
+  "bo": {
     "english": [
       "Tibetan"
     ],
@@ -5193,7 +5396,7 @@
       "Tibetan"
     ]
   },
-  "tig":  {
+  "tig": {
     "english": [
       "Tigre"
     ],
@@ -5201,7 +5404,7 @@
       "Tigre"
     ]
   },
-  "tir":  {
+  "tir": {
     "english": [
       "Tigrinya"
     ],
@@ -5209,7 +5412,7 @@
       "ትግርኛ"
     ]
   },
-  "ti":  {
+  "ti": {
     "english": [
       "Tigrinya"
     ],
@@ -5217,7 +5420,7 @@
       "ትግርኛ"
     ]
   },
-  "tiv":  {
+  "tiv": {
     "english": [
       "Tiv"
     ],
@@ -5225,7 +5428,7 @@
       "Tiv"
     ]
   },
-  "tkl":  {
+  "tkl": {
     "english": [
       "Tokelau"
     ],
@@ -5233,7 +5436,7 @@
       "Tokelau"
     ]
   },
-  "tlh":  {
+  "tlh": {
     "english": [
       "Klingon",
       "TlhIngan-Hol"
@@ -5243,7 +5446,7 @@
       "TlhIngan-Hol"
     ]
   },
-  "tli":  {
+  "tli": {
     "english": [
       "Tlingit"
     ],
@@ -5251,7 +5454,7 @@
       "Tlingit"
     ]
   },
-  "tmh":  {
+  "tmh": {
     "english": [
       "Tamashek"
     ],
@@ -5259,7 +5462,7 @@
       "Tamashek"
     ]
   },
-  "tog":  {
+  "tog": {
     "english": [
       "Tonga (Nyasa)"
     ],
@@ -5267,7 +5470,7 @@
       "Tonga (Nyasa)"
     ]
   },
-  "ton":  {
+  "ton": {
     "english": [
       "Tonga (Tonga Islands)"
     ],
@@ -5275,7 +5478,7 @@
       "Faka Tonga"
     ]
   },
-  "to":  {
+  "to": {
     "english": [
       "Tonga (Tonga Islands)"
     ],
@@ -5283,7 +5486,7 @@
       "Faka Tonga"
     ]
   },
-  "tpi":  {
+  "tpi": {
     "english": [
       "Tok Pisin"
     ],
@@ -5291,7 +5494,7 @@
       "Tok Pisin"
     ]
   },
-  "tsi":  {
+  "tsi": {
     "english": [
       "Tsimshian"
     ],
@@ -5299,7 +5502,7 @@
       "Tsimshian"
     ]
   },
-  "tsn":  {
+  "tsn": {
     "english": [
       "Tswana"
     ],
@@ -5307,7 +5510,7 @@
       "Setswana"
     ]
   },
-  "tn":  {
+  "tn": {
     "english": [
       "Tswana"
     ],
@@ -5315,7 +5518,7 @@
       "Setswana"
     ]
   },
-  "tso":  {
+  "tso": {
     "english": [
       "Tsonga"
     ],
@@ -5323,7 +5526,7 @@
       "Xitsonga"
     ]
   },
-  "ts":  {
+  "ts": {
     "english": [
       "Tsonga"
     ],
@@ -5331,7 +5534,7 @@
       "Xitsonga"
     ]
   },
-  "tuk":  {
+  "tuk": {
     "english": [
       "Turkmen"
     ],
@@ -5340,7 +5543,7 @@
       "Түркмен"
     ]
   },
-  "tk":  {
+  "tk": {
     "english": [
       "Turkmen"
     ],
@@ -5349,7 +5552,7 @@
       "Түркмен"
     ]
   },
-  "tum":  {
+  "tum": {
     "english": [
       "Tumbuka"
     ],
@@ -5357,7 +5560,7 @@
       "Tumbuka"
     ]
   },
-  "tup":  {
+  "tup": {
     "english": [
       "Tupi Languages"
     ],
@@ -5365,7 +5568,7 @@
       "Tupi Languages"
     ]
   },
-  "tur":  {
+  "tur": {
     "english": [
       "Turkish"
     ],
@@ -5373,7 +5576,7 @@
       "Türkçe"
     ]
   },
-  "tr":  {
+  "tr": {
     "english": [
       "Turkish"
     ],
@@ -5381,7 +5584,7 @@
       "Türkçe"
     ]
   },
-  "tut":  {
+  "tut": {
     "english": [
       "Altaic Languages"
     ],
@@ -5389,7 +5592,7 @@
       "Altaic Languages"
     ]
   },
-  "tvl":  {
+  "tvl": {
     "english": [
       "Tuvalu"
     ],
@@ -5397,7 +5600,7 @@
       "Tuvalu"
     ]
   },
-  "twi":  {
+  "twi": {
     "english": [
       "Twi"
     ],
@@ -5405,7 +5608,7 @@
       "Twi"
     ]
   },
-  "tw":  {
+  "tw": {
     "english": [
       "Twi"
     ],
@@ -5413,7 +5616,7 @@
       "Twi"
     ]
   },
-  "tyv":  {
+  "tyv": {
     "english": [
       "Tuvinian"
     ],
@@ -5421,7 +5624,7 @@
       "Tuvinian"
     ]
   },
-  "udm":  {
+  "udm": {
     "english": [
       "Udmurt"
     ],
@@ -5429,7 +5632,7 @@
       "Udmurt"
     ]
   },
-  "uga":  {
+  "uga": {
     "english": [
       "Ugaritic"
     ],
@@ -5437,7 +5640,7 @@
       "Ugaritic"
     ]
   },
-  "uig":  {
+  "uig": {
     "english": [
       "Uighur",
       "Uyghur"
@@ -5447,7 +5650,7 @@
       "Uyghur"
     ]
   },
-  "ug":  {
+  "ug": {
     "english": [
       "Uighur",
       "Uyghur"
@@ -5457,7 +5660,7 @@
       "Uyghur"
     ]
   },
-  "ukr":  {
+  "ukr": {
     "english": [
       "Ukrainian"
     ],
@@ -5465,7 +5668,7 @@
       "українська"
     ]
   },
-  "uk":  {
+  "uk": {
     "english": [
       "Ukrainian"
     ],
@@ -5473,7 +5676,7 @@
       "українська"
     ]
   },
-  "umb":  {
+  "umb": {
     "english": [
       "Umbundu"
     ],
@@ -5481,7 +5684,7 @@
       "Umbundu"
     ]
   },
-  "und":  {
+  "und": {
     "english": [
       "Undetermined"
     ],
@@ -5489,7 +5692,7 @@
       "Undetermined"
     ]
   },
-  "urd":  {
+  "urd": {
     "english": [
       "Urdu"
     ],
@@ -5497,7 +5700,7 @@
       "اردو"
     ]
   },
-  "ur":  {
+  "ur": {
     "english": [
       "Urdu"
     ],
@@ -5505,7 +5708,18 @@
       "اردو"
     ]
   },
-  "uzb":  {
+  "urk":  {
+    "english":  [
+      "Urak Lawoi"
+    ],
+    "native":  [
+      "Urak Lawoi",
+      "Chawnam",
+      "Chaw Talay",
+      "烏拉克語"  
+    ]
+  },
+  "uzb": {
     "english": [
       "Uzbek"
     ],
@@ -5515,7 +5729,7 @@
       "أۇزبېك‎"
     ]
   },
-  "uz":  {
+  "uz": {
     "english": [
       "Uzbek"
     ],
@@ -5525,7 +5739,7 @@
       "أۇزبېك‎"
     ]
   },
-  "vai":  {
+  "vai": {
     "english": [
       "Vai"
     ],
@@ -5533,7 +5747,7 @@
       "Vai"
     ]
   },
-  "ven":  {
+  "ven": {
     "english": [
       "Venda"
     ],
@@ -5541,7 +5755,7 @@
       "Tshivenḓa"
     ]
   },
-  "ve":  {
+  "ve": {
     "english": [
       "Venda"
     ],
@@ -5549,7 +5763,7 @@
       "Tshivenḓa"
     ]
   },
-  "vie":  {
+  "vie": {
     "english": [
       "Vietnamese"
     ],
@@ -5557,7 +5771,7 @@
       "Tiếng Việt"
     ]
   },
-  "vi":  {
+  "vi": {
     "english": [
       "Vietnamese"
     ],
@@ -5565,7 +5779,7 @@
       "Tiếng Việt"
     ]
   },
-  "vol":  {
+  "vol": {
     "english": [
       "Volapük"
     ],
@@ -5573,7 +5787,7 @@
       "Volapük"
     ]
   },
-  "vo":  {
+  "vo": {
     "english": [
       "Volapük"
     ],
@@ -5581,7 +5795,7 @@
       "Volapük"
     ]
   },
-  "vot":  {
+  "vot": {
     "english": [
       "Votic"
     ],
@@ -5589,7 +5803,7 @@
       "Votic"
     ]
   },
-  "wak":  {
+  "wak": {
     "english": [
       "Wakashan Languages"
     ],
@@ -5597,7 +5811,7 @@
       "Wakashan Languages"
     ]
   },
-  "wal":  {
+  "wal": {
     "english": [
       "Walamo"
     ],
@@ -5605,7 +5819,7 @@
       "Walamo"
     ]
   },
-  "war":  {
+  "war": {
     "english": [
       "Waray"
     ],
@@ -5613,7 +5827,7 @@
       "Waray"
     ]
   },
-  "was":  {
+  "was": {
     "english": [
       "Washo"
     ],
@@ -5621,7 +5835,7 @@
       "Washo"
     ]
   },
-  "wel":  {
+  "wel": {
     "english": [
       "Welsh"
     ],
@@ -5629,7 +5843,7 @@
       "Cymraeg"
     ]
   },
-  "cym":  {
+  "cym": {
     "english": [
       "Welsh"
     ],
@@ -5637,7 +5851,7 @@
       "Cymraeg"
     ]
   },
-  "cy":  {
+  "cy": {
     "english": [
       "Welsh"
     ],
@@ -5645,7 +5859,7 @@
       "Cymraeg"
     ]
   },
-  "wen":  {
+  "wen": {
     "english": [
       "Sorbian Languages"
     ],
@@ -5653,7 +5867,7 @@
       "Sorbian Languages"
     ]
   },
-  "wln":  {
+  "wln": {
     "english": [
       "Walloon"
     ],
@@ -5661,7 +5875,7 @@
       "Walon"
     ]
   },
-  "wa":  {
+  "wa": {
     "english": [
       "Walloon"
     ],
@@ -5669,7 +5883,7 @@
       "Walon"
     ]
   },
-  "wol":  {
+  "wol": {
     "english": [
       "Wolof"
     ],
@@ -5677,7 +5891,7 @@
       "Wollof"
     ]
   },
-  "wo":  {
+  "wo": {
     "english": [
       "Wolof"
     ],
@@ -5685,7 +5899,7 @@
       "Wollof"
     ]
   },
-  "xal":  {
+  "xal": {
     "english": [
       "Kalmyk",
       "Oirat"
@@ -5695,7 +5909,7 @@
       "Oirat"
     ]
   },
-  "xho":  {
+  "xho": {
     "english": [
       "Xhosa"
     ],
@@ -5703,7 +5917,7 @@
       "IsiXhosa"
     ]
   },
-  "xh":  {
+  "xh": {
     "english": [
       "Xhosa"
     ],
@@ -5711,7 +5925,7 @@
       "IsiXhosa"
     ]
   },
-  "yao":  {
+  "yao": {
     "english": [
       "Yao"
     ],
@@ -5719,7 +5933,7 @@
       "Yao"
     ]
   },
-  "yap":  {
+  "yap": {
     "english": [
       "Yapese"
     ],
@@ -5727,7 +5941,7 @@
       "Yapese"
     ]
   },
-  "yid":  {
+  "yid": {
     "english": [
       "Yiddish"
     ],
@@ -5735,7 +5949,7 @@
       "ייִדיש"
     ]
   },
-  "yi":  {
+  "yi": {
     "english": [
       "Yiddish"
     ],
@@ -5743,7 +5957,7 @@
       "ייִדיש"
     ]
   },
-  "yor":  {
+  "yor": {
     "english": [
       "Yoruba"
     ],
@@ -5751,7 +5965,7 @@
       "Yorùbá"
     ]
   },
-  "yo":  {
+  "yo": {
     "english": [
       "Yoruba"
     ],
@@ -5759,7 +5973,7 @@
       "Yorùbá"
     ]
   },
-  "ypk":  {
+  "ypk": {
     "english": [
       "Yupik Languages"
     ],
@@ -5767,7 +5981,7 @@
       "Yupik Languages"
     ]
   },
-  "zap":  {
+  "zap": {
     "english": [
       "Zapotec"
     ],
@@ -5775,7 +5989,7 @@
       "Zapotec"
     ]
   },
-  "zbl":  {
+  "zbl": {
     "english": [
       "Bliss",
       "Blissymbolics",
@@ -5787,7 +6001,7 @@
       "Blissymbols"
     ]
   },
-  "zen":  {
+  "zen": {
     "english": [
       "Zenaga"
     ],
@@ -5795,7 +6009,7 @@
       "Zenaga"
     ]
   },
-  "zgh":  {
+  "zgh": {
     "english": [
       "Standard Moroccan Tamazight"
     ],
@@ -5803,7 +6017,7 @@
       "Standard Moroccan Tamazight"
     ]
   },
-  "zha":  {
+  "zha": {
     "english": [
       "Chuang",
       "Zhuang"
@@ -5813,7 +6027,7 @@
       "Zhuang"
     ]
   },
-  "za":  {
+  "za": {
     "english": [
       "Chuang",
       "Zhuang"
@@ -5823,7 +6037,7 @@
       "Zhuang"
     ]
   },
-  "znd":  {
+  "znd": {
     "english": [
       "Zande Languages"
     ],
@@ -5831,7 +6045,7 @@
       "Zande Languages"
     ]
   },
-  "zul":  {
+  "zul": {
     "english": [
       "Zulu"
     ],
@@ -5839,7 +6053,7 @@
       "Zulu"
     ]
   },
-  "zu":  {
+  "zu": {
     "english": [
       "Zulu"
     ],
@@ -5847,7 +6061,7 @@
       "Zulu"
     ]
   },
-  "zun":  {
+  "zun": {
     "english": [
       "Zuni"
     ],
@@ -5855,7 +6069,7 @@
       "Zuni"
     ]
   },
-  "zxx":  {
+  "zxx": {
     "english": [
       "No Linguistic Content",
       "Not Applicable"
@@ -5865,7 +6079,18 @@
       "Not Applicable"
     ]
   },
-  "zza":  {
+  "zyp":  {
+   "english":  [
+     "Chin, Zyphe"
+   ],
+   "native":  [
+     "Chin, Zyphe",
+     "Chin, Vuangtu",
+     "Zophei",
+     "ज़एफे"
+   ]
+  },
+  "zza": {
     "english": [
       "Dimili",
       "Dimli",
@@ -5882,4 +6107,5 @@
       "Zaza",
       "Zazaki"
     ]
-  }}
+  }
+}
