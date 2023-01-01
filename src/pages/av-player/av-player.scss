@@ -1,11 +1,29 @@
 page-av-player {
+    .scroll-content {
+        overflow-y: hidden !important;
+    }
+    #exit-button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 100;
+
+        .close-btn {
+            color: #ffffff;
+            font-size: 1.40em;
+        }
+    }
     #secondary-controls {
         height: 7%;
         max-height: 7%;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     #audio-player-wrapper {
         height: 93%;
         position: relative;
+        margin: 0 !important;
+        padding: 0 !important;
 
         audio {
             height: 7%;
@@ -22,23 +40,11 @@ page-av-player {
         }
     }
 
-    .overlay {
-        background-color: rgba(0, 0, 0, 0.5);
-        width: 100%;
-        position: absolute;
-        right: 0;
-        text-align: right;
-        top: 0;
-        z-index: 100;
-
-        .close-btn {
-            color: #ffffff;
-        }
-    }
-
     #video-player-wrapper {
         height: 93%;
         position: relative;
+        margin: 0 !important;
+        padding: 0 !important;
 
         video {
             height: 100%;

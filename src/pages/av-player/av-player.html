@@ -1,7 +1,7 @@
 <ion-content>
   <ng-container *ngIf="current">
     <div id="video-player-wrapper" [hidden]="current?.type !== 'video'">
-      <div class="overlay" [hidden]="!showOverlay">
+      <div id="exit-button" class=""text-right>
         <button icon-only ion-button clear color="primary" (click)="goBack()" class="close-btn"><ion-icon name="close"></ion-icon></button>
       </div>
       <video [src]="current?.url" controls [autoplay]="current?.type === 'video'" [poster]="current?.posterUrl" #videoPlayer>
@@ -9,7 +9,7 @@
       </video>
     </div>
     <div id="audio-player-wrapper" [hidden]="current?.type !== 'audio'">
-      <div class="overlay" [hidden]="!showOverlay">
+      <div id="exit-button" class=""text-right>
         <button icon-only ion-button clear color="primary" (click)="goBack()" class="close-btn"><ion-icon name="close"></ion-icon></button>
       </div>
       <div id="audio-poster" [ngStyle]="{ 'background-image': 'url(' + current?.posterUrl + ')'}" #audioPoster></div>

@@ -33,6 +33,15 @@ describe('Language', () => {
       expect(lang.code).toEqual('zh');
     });
 
+    it('should set the code to the three letter code', () => {
+      const lang = new Language(
+        ['zza'],
+        'Dimili',
+        false,
+      );
+      expect(lang.code).toEqual('zzb');
+    });
+
   });
 
 });

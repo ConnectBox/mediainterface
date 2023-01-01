@@ -16,10 +16,10 @@
 </ng-template>
 <ion-header>
   <ion-navbar class="with-logo" hideBackButton="true">
-    <div class="logo-wrapper" [hidden]="logo === ''">
+    <div class="logo-wrapper" [hidden]="(logo === '') || (!displaysBranding)">
       <img src="assets/{{ logo }}" />
     </div>
-    <ion-title>{{ 'APP_NAME' | translate }}</ion-title>
+    <ion-title [hidden]="!displaysBranding">{{ 'APP_NAME' | translate }}</ion-title>
     <ion-buttons end>
       <button ion-button icon-right (click)="openLanguagePopover($event)">
         {{ 'LANGUAGE_BUTTON' | translate }} <ion-icon name="cog"></ion-icon>

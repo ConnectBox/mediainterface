@@ -23,6 +23,11 @@ export class LiveConfigurationProvider {
   private isInitialized = false;
 
   /**
+   * Do we want to display the logo and app name in the header?
+   */
+  private displayTheBranding = true;
+
+  /**
    * Do we allow chatting?
    */
   private chatEnabled = true;
@@ -46,6 +51,15 @@ export class LiveConfigurationProvider {
   }
 
   /**
+   * Do we want to display the branding?
+   * 
+   * @return yes|no
+   */
+  get displayBranding(): boolean {
+    return this.displayTheBranding;
+  }
+
+  /**
    * Do we collect stats?
    *
    * @return yes|no
@@ -61,17 +75,21 @@ export class LiveConfigurationProvider {
    */
   init(): Observable<void> {
     return this.load().pipe(map((response: any) =>  {
-        if (response && response.hasOwnProperty('disable_openwell_chat')) {
-          this.chatEnabled = (!response.disable_openwell_chat);
-        }
-        if (response && response.hasOwnProperty('disable_chat')) {
-          this.chatEnabled = (!response.disable_chat);
-        }
-        if (response && response.hasOwnProperty('disable_stats')) {
-          this.statsEnabled = (!response.disable_stats);
-        }
-        this.isInitialized = true;
-        return null;
+      console.log(response);
+      if (response && response.hasOwnProperty('disable_openwell_chat')) {
+        this.chatEnabled = (!response.disable_openwell_chat);
+      }
+      if (response && response.hasOwnProperty('disable_chat')) {
+        this.chatEnabled = (!response.disable_chat);
+      }
+      if (response && response.hasOwnProperty('disable_stats')) {
+        this.statsEnabled = (!response.disable_stats);
+      }
+      if (response && response.hasOwnProperty('hide_branding')) {
+        this.displayTheBranding = (!response.hide_branding);
+      }
+      this.isInitialized = true;
+      return null;
     }));
   }
 

@@ -151,6 +151,7 @@ export class LanguageProvider {
       switchMap((supported: Array<Language>) => {
         const found = supported.find((lang: Language) => lang.text.toLowerCase() === language.text.toLowerCase());
         if (!found) {
+          console.log(`Unable to locate language settings: ${language.text.toLowerCase()}`);
           return of(false);
         }
         this.currentLanguage = found;

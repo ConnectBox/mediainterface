@@ -23,6 +23,11 @@ export class HomePage {
   allowsChat = true;
 
   /**
+   * Do we display the branded information?
+   */
+  displaysBranding = true;
+
+  /**
    * Our media to display
    */
   groups: GroupedMedia = {};
@@ -75,7 +80,10 @@ export class HomePage {
   ionViewWillEnter() {
     this.languageProvider.getLanguage().pipe(take(1)).subscribe((lang: Language) => this.loadData(lang));
     this.languageOnChangeStream$ = this.languageProvider.onLanguageChange.subscribe((lang: Language) => this.loadData(lang));
-    this.liveConfigurationProvider.init().pipe(take(1)).subscribe(()  =>  this.allowsChat = this.liveConfigurationProvider.allowsChat);
+    this.liveConfigurationProvider.init().pipe(take(1)).subscribe(()  =>  {
+      this.allowsChat = this.liveConfigurationProvider.allowsChat;
+      this.displaysBranding = this.liveConfigurationProvider.displayBranding;
+    });
   }
 
   /**

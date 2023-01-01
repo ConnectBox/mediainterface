@@ -36,6 +36,7 @@ export class Language {
     } else if (dashed) {
       this.code = dashed.split('-')[0];
     }
+    console.log(`Model indicates that language is ${this.code}`);
   }
 
 }

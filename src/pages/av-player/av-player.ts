@@ -50,11 +50,6 @@ export class AvPlayerPage {
     isPlaying = true;
 
     /**
-     * Should we show the overlay?
-     */
-    showOverlay = false;
-
-    /**
      * The callback triggered when the audio/video ended.
      */
     private mediaEndedCallback: any = null;
@@ -68,11 +63,6 @@ export class AvPlayerPage {
      * The callback triggered when the audio/video is started.
      */
     private mediaPlayCallback: any = null;
-
-    /**
-     * The callback triggered when the audio/video is hovered/tapped.
-     */
-    private mediaEngagedCallback: any = null;
 
     /**
      * The slug for the previous page
@@ -105,6 +95,7 @@ export class AvPlayerPage {
           this.goBack();
         } else {
           this.current = current;
+          this.setUpListeners();
         }
       });
     }
@@ -114,55 +105,30 @@ export class AvPlayerPage {
      *
      * @return void
      */
-    ionViewDidEnter() {
-      this.mediaEndedCallback = () => this.videoDidEnd();
-      this.mediaPauseCallback = () => this.isPlaying = false;
-      this.mediaPlayCallback = () => this.isPlaying = true;
-      this.mediaEngagedCallback = (event) => this.displayOverlay(event);
-      this.videoPlayer.nativeElement.addEventListener('play', this.mediaPlayCallback, false);
-      this.audioPlayer.nativeElement.addEventListener('play', this.mediaPlayCallback, false);
-      this.videoPlayer.nativeElement.addEventListener('pause', this.mediaPauseCallback, false);
-      this.audioPlayer.nativeElement.addEventListener('pause', this.mediaPauseCallback, false);
-      this.videoPlayer.nativeElement.addEventListener('ended', this.mediaEndedCallback, false);
-      this.audioPlayer.nativeElement.addEventListener('ended', this.mediaEndedCallback, false);
-
-      this.videoPlayer.nativeElement.addEventListener('touchstart', this.mediaEngagedCallback, false);
-      this.videoPlayer.nativeElement.addEventListener('mouseenter', this.mediaEngagedCallback, false);
-      this.audioPoster.nativeElement.addEventListener('touchstart', this.mediaEngagedCallback, false);
-      this.audioPoster.nativeElement.addEventListener('mouseenter', this.mediaEngagedCallback, false);
-      this.audioPlayer.nativeElement.addEventListener('touchstart', this.mediaEngagedCallback, false);
-      this.audioPlayer.nativeElement.addEventListener('mouseenter', this.mediaEngagedCallback, false);
-    }
-
-    /**
-     * Ionic view lifecycle
-     *
-     * @return void
-     */
     ionViewWillLeave() {
       if (this.mediaEndedCallback) {
-        this.videoPlayer.nativeElement.removeEventListener('ended', this.mediaEndedCallback);
-        this.audioPlayer.nativeElement.removeEventListener('ended', this.mediaEndedCallback);
+        if (this.current.type === 'audio') {
+          this.audioPlayer.nativeElement.removeEventListener('ended', this.mediaEndedCallback);
+        } else {
+          this.videoPlayer.nativeElement.removeEventListener('ended', this.mediaEndedCallback);
+        }
         this.mediaEndedCallback = null;
       }
       if (this.mediaPauseCallback) {
-        this.videoPlayer.nativeElement.removeEventListener('pause', this.mediaPauseCallback);
-        this.audioPlayer.nativeElement.removeEventListener('pause', this.mediaPauseCallback);
+        if (this.current.type === 'audio') {
+          this.audioPlayer.nativeElement.removeEventListener('pause', this.mediaPauseCallback);
+        } else {
+          this.videoPlayer.nativeElement.removeEventListener('pause', this.mediaPauseCallback); 
+        }
         this.mediaPauseCallback = null;
       }
       if (this.mediaPlayCallback) {
-        this.videoPlayer.nativeElement.removeEventListener('play', this.mediaPlayCallback);
-        this.audioPlayer.nativeElement.removeEventListener('play', this.mediaPlayCallback);
+        if (this.current.type === 'audio') {
+          this.audioPlayer.nativeElement.removeEventListener('play', this.mediaPlayCallback);
+        } else {
+          this.videoPlayer.nativeElement.removeEventListener('play', this.mediaPlayCallback);
+        }
         this.mediaPlayCallback = null;
-      }
-      if (this.mediaEngagedCallback) {
-        this.videoPlayer.nativeElement.removeEventListener('touchstart', this.mediaEngagedCallback);
-        this.videoPlayer.nativeElement.removeEventListener('mouseenter', this.mediaEngagedCallback);
-        this.audioPoster.nativeElement.removeEventListener('touchstart', this.mediaEngagedCallback);
-        this.audioPoster.nativeElement.removeEventListener('mouseenter', this.mediaEngagedCallback);
-        this.audioPlayer.nativeElement.removeEventListener('touchstart', this.mediaEngagedCallback);
-        this.audioPlayer.nativeElement.removeEventListener('mouseenter', this.mediaEngagedCallback);
-        this.mediaEngagedCallback = null;
       }
     }
 
@@ -278,21 +244,6 @@ export class AvPlayerPage {
     }
 
     /**
-     * Display the overlay for a set amount of seconds.
-     *
-     * @param   event   the event that triggered it
-     * @return void
-     */
-    displayOverlay(event) {
-      event.preventDefault();
-      if (this.showOverlay) {
-        return;
-      }
-      this.showOverlay = true;
-      setTimeout(() => this.showOverlay = false, 3000);
-    }
-
-    /**
      * The video did end.
      *
      * @return void
@@ -319,6 +270,33 @@ export class AvPlayerPage {
       return this.languageProvider.getLanguage().pipe(
         mergeMap((lang: Language) =>  this.statReporterProvider.report(item.slug, 'view', lang.code, item.provider, item.type).pipe(map(() =>  item)))
       );
+    }
+
+    /**
+     * Set up all the listeners
+     *
+     * @return void
+     */
+    private setUpListeners() {
+      if ((!this.videoPlayer) && (!this.audioPlayer)) {
+        // We need to wait until the elements are visible
+        setTimeout(() => this.setUpListeners(), 300);
+        return;
+      }
+      this.mediaEndedCallback = () => this.videoDidEnd();
+      this.mediaPauseCallback = () => this.isPlaying = false;
+      this.mediaPlayCallback = () => this.isPlaying = true;
+      if (this.current.type === 'audio') {
+        this.isPlaying = (!this.audioPlayer.nativeElement.paused);
+        this.audioPlayer.nativeElement.addEventListener('play', this.mediaPlayCallback, false);
+        this.audioPlayer.nativeElement.addEventListener('pause', this.mediaPauseCallback, false);
+        this.audioPlayer.nativeElement.addEventListener('ended', this.mediaEndedCallback, false);
+      } else {
+        this.isPlaying = (!this.videoPlayer.nativeElement.paused);
+        this.videoPlayer.nativeElement.addEventListener('play', this.mediaPlayCallback, false);
+        this.videoPlayer.nativeElement.addEventListener('pause', this.mediaPauseCallback, false);
+        this.videoPlayer.nativeElement.addEventListener('ended', this.mediaEndedCallback, false);
+      }
     }
 
 }
