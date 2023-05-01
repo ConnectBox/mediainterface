@@ -1,4 +1,5 @@
-# The OpenWell (MMI)
+# The OpenWell (MMI) - base design in open source
+
 
 [![AppVersion-version](https://img.shields.io/badge/AppVersion-0.0.1-brightgreen.svg?style=flat)](https://github.com/delvedor/appversion?#version)
 
