@@ -52,6 +52,7 @@ if (os.path.exists(mediaDirectory + "/saved.zip")):
 os.system ("mkdir " + contentDirectory)
 shutil.copytree(templatesDirectory + '/en', contentDirectory + '/en')
 shutil.copy(templatesDirectory + '/footer.html', contentDirectory)
+shutil.copy(templatesDirectory + '/config.json', contentDirectory)
 os.system ("chown -R www-data.www-data " + contentDirectory)   # REMOVE AFTER TEST
 f = open (templatesDirectory + "/en/data/main.json")
 mains["en"] = json.load(f)
