@@ -130,7 +130,7 @@ for path,dirs,files in os.walk(mediaDirectory, followlinks=True):
 	dirs.sort()
 	files.sort()
 
-	
+
 	directoryType = ''  	# Always start a directory with unknown
 	skipWebPath = False;    # By default
 
@@ -235,7 +235,7 @@ for path,dirs,files in os.walk(mediaDirectory, followlinks=True):
 		# See if the language already exists in the directory, if not make and populate a directory from the template
 		# Make a symlink to the file on USB to display the content
 		print ("	WebPath: Writing symlink to /html folder")
-		os.system ("ln -s '" + path + "' " + contentDirectory + "/" + language + "/html/" + relativePath.replace('/','-'))
+		os.system ("ln -s '" + path + "' " + contentDirectory + "/" + language + "'/html/" + relativePath.replace('/','-') + "'")
 		try:
 			if (brand['makeArchive'] == True):
 			  print ("	WebPath: Creating web archive zip file on USB")
