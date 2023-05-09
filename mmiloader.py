@@ -138,18 +138,27 @@ for path,dirs,files in os.walk(mediaDirectory, followlinks=True):
 	#  See if this directory is language folder or content
 	##########################################################################
 
-	print ('	Checking For Language Folder: '+ thisDirectory)
+	if (len(thisDirectory) <= 3):
+		possibleLanguage = thisDirectory;
+		print ('	Getting possibleLanguage from 2-3 letter directory name');
+	else:
+		possibleLanguage = thisDirectory.replace(' ','').split('-')[0];
+		if (len(possibleLanguage) <= 3):
+			print ('	Getting possibleLanguage from thisDirectory before the -');
+		else:
+			possibleLanguage = thisDirectory;
+			print ('	Getting possibleLanguage from thisDirectory but this is not likely a language');
+	print ('	Checking For Language Folder: '+ possibleLanguage)
 	try:
 		if (os.path.isdir(mediaDirectory + '/' + thisDirectory) and mediaDirectory + '/' + thisDirectory == path):
 			print ("	Directory is a valid language directory since it is in the root of the USB")
 		else:
 			fail() # This is a placeholder to trigger the try:except to have an exception that goes to except below
-		print ('	Found Language: ' + json.dumps(languageCodes[thisDirectory]))
-		language = thisDirectory
+		print ('	Found Language: ' + possibleLanguage + ': ' + json.dumps(languageCodes[possibleLanguage]))
+		language = possibleLanguage
 		directoryType = "language"
 	except:
-		print ('	NOT a Language: ' + thisDirectory)
-
+		print ('	NOT a Language: ' + possibleLanguage)
 	##########################################################################
 	#  IF directory is not a language but we are ignoring non language root folders
 	##########################################################################
