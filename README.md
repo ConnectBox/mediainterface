@@ -3,7 +3,7 @@
 
 [![AppVersion-version](https://img.shields.io/badge/AppVersion-0.0.1-brightgreen.svg?style=flat)](https://github.com/delvedor/appversion?#version)
 
-A multimedia interface designed for offline media boxes like the Connect Box.
+A multimedia interface designed for offline media boxes like the Connect Box.  There are at least two ways to populate the interface with content: (1) through packages created from [MediaBuilder](https://github.com/ConnectBox/mediabuilder) loaded from lazyLoader (see below) or (2) from semi-structured content located at /media/usb0/content which is typically on a USB drive attached to the device [Instructions](./mmiLoader.md).  
 
 ## Usage
 
