@@ -55,7 +55,7 @@
         <ion-list-header>{{ 'EPISODES_TEXT' | translate }}</ion-list-header>
         <ion-item *ngFor="let episode of media?.episodes" text-wrap>
           <ion-thumbnail item-start>
-            <img src="{{ episode.imagePath }}" alt="{{ episode.title }}">
+            <img src="{{ episode.imagePath }}" alt="{{ episode.title }}" [hidden]="!episode.imagePath">
           </ion-thumbnail>
           <h2>{{ episode.title }}</h2>
           <p>{{ episode.desc }}</p>
