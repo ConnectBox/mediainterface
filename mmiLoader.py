@@ -402,6 +402,7 @@ for path,dirs,files in os.walk(mediaDirectory, followlinks=True):
 				collection['slug'] = 'collection-' + os.path.basename(os.path.normpath(path))
 				collection['mediaType'] = content['mediaType']
 				collection['mimeType'] = content['mimeType']
+				collection['image'] = 'blank.gif'
 				if (content["image"] == types[extension]["image"]):
 				  collection['image'] = 'files.png'
 				elif (content['image']):
