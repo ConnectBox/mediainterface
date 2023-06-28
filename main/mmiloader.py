@@ -2,6 +2,7 @@
 #  Loads content from USB and creates the JSON / file structure for enhanced media interface
 
 
+
 print ("loader: Starting...")
 
 import json
@@ -25,7 +26,9 @@ zipFileName = mediaDirectory + '/saved.zip';
 
 # Init
 mains = {}        # This object contains all the data to construct each main.json at the end.  We add as we go along
-
+results = {}
+results['totalInMediaDirectory'] = int(os.popen("find " + mediaDirectory + " -type f,l | wc -l").read().replace('\n',''))
+results['processed'] = 0
 
 # Clear the content directory so we replace it in whole and create the en directory for default
 # Copy templates to content folder
@@ -50,6 +53,7 @@ if (os.path.exists(mediaDirectory + "/saved.zip")):
 os.system ("mkdir " + contentDirectory)
 shutil.copytree(templatesDirectory + '/en', contentDirectory + '/en')
 shutil.copy(templatesDirectory + '/footer.html', contentDirectory)
+shutil.copy(templatesDirectory + '/config.json', contentDirectory)
 os.system ("chown -R www-data.www-data " + contentDirectory)   # REMOVE AFTER TEST
 f = open (templatesDirectory + "/en/data/main.json")
 mains["en"] = json.load(f)
@@ -113,18 +117,20 @@ if (doesRootContainLanguage):
 ##########################################################################
 #  Main Loop
 ##########################################################################
-for path,dirs,files in os.walk(mediaDirectory):
+for path,dirs,files in os.walk(mediaDirectory, followlinks=True):
 	thisDirectory = os.path.basename(os.path.normpath(path))
+	relativePath = path.replace(mediaDirectory + '/', '').replace(language + '/','')
 	print ("====================================================")
-	print ("Evaluating Directory: " + thisDirectory)
-	print (path,dirs,files)
+	print ("Evaluating Directory of Language (" + language + "): " + thisDirectory + " -> " + relativePath)
 	shortPath = path.replace(mediaDirectory + '/d','')
 	# These next two lines ignore directories and files that start with .
 	files = [f for f in files if not f[0] == '_']
 	dirs[:] = [d for d in dirs if not d[0] == '_']
 	files = [f for f in files if not f[0] == '.']
 	dirs[:] = [d for d in dirs if not d[0] == '.']
+	dirs.sort()
 	files.sort()
+
 
 	directoryType = ''  	# Always start a directory with unknown
 	skipWebPath = False;    # By default
@@ -133,18 +139,27 @@ for path,dirs,files in os.walk(mediaDirectory):
 	#  See if this directory is language folder or content
 	##########################################################################
 
-	print ('	Checking For Language Folder: '+ thisDirectory)
+	if (len(thisDirectory) <= 3):
+		possibleLanguage = thisDirectory;
+		print ('	Getting possibleLanguage from 2-3 letter directory name');
+	else:
+		possibleLanguage = thisDirectory.replace(' ','').split('-')[0];
+		if (len(possibleLanguage) <= 3):
+			print ('	Getting possibleLanguage from thisDirectory before the -');
+		else:
+			possibleLanguage = thisDirectory;
+			print ('	Getting possibleLanguage from thisDirectory but this is not likely a language');
+	print ('	Checking For Language Folder: '+ possibleLanguage)
 	try:
 		if (os.path.isdir(mediaDirectory + '/' + thisDirectory) and mediaDirectory + '/' + thisDirectory == path):
 			print ("	Directory is a valid language directory since it is in the root of the USB")
 		else:
 			fail() # This is a placeholder to trigger the try:except to have an exception that goes to except below
-		print ('	Found Language: ' + json.dumps(languageCodes[thisDirectory]))
-		language = thisDirectory
+		print ('	Found Language: ' + possibleLanguage + ': ' + json.dumps(languageCodes[possibleLanguage]))
+		language = possibleLanguage
 		directoryType = "language"
 	except:
-		print ('	NOT a Language: ' + thisDirectory)
-
+		print ('	NOT a Language: ' + possibleLanguage)
 	##########################################################################
 	#  IF directory is not a language but we are ignoring non language root folders
 	##########################################################################
@@ -177,15 +192,60 @@ for path,dirs,files in os.walk(mediaDirectory):
 		continue;
 
 	##########################################################################
-	#  If this directory contains index.html then treat as web content
+	#  Skip Directories with Characters we don't want
 	##########################################################################
+	if ("'" in thisDirectory):
+		print ("	Directory contains invalid character: " + thisDirectory)
+		continue
 
-	if (os.path.exists(path + "/index.html") or os.path.exists(path + "/index.htm")):
+	##########################################################################
+	#  If this directory is called images, skip because it's probably for html and we don't want to index this
+	##########################################################################
+	if (thisDirectory == 'images'):
+		print ("	WebPath: Skipping images directory")
+		webpaths.append(path)
+		continue;
+
+	##########################################################################
+	#  If this directory contains html files then treat as web content and if it has no index file but is web, make an index file
+	##########################################################################
+	if ("'" in thisDirectory):
+		print ("	Directory contains invalid character: " + thisDirectory)
+		continue
+
+	##########################################################################
+	#  If this directory is called images, skip because it's probably for html and we don't want to index this
+	##########################################################################
+	if (thisDirectory == 'images'):
+		print ("	WebPath: Skipping images directory")
+		webpaths.append(path)
+		continue;
+
+	##########################################################################
+	#  If this directory contains html files then treat as web content and if it has no index file but is web, make an index file
+	##########################################################################
+	#if (os.path.exists(path + "/index.html") or os.path.exists(path + "/index.htm")):
+	if (int(os.popen("ls '" + path + "/'*.htm* 2>/dev/null | wc -l").read().replace('\n','')) > 0):
 		print ("	" + path + " is HTML web content")
+		if (os.path.exists(path + "/index.html")):
+			print ("	WebPath: index file found")
+		elif (os.path.exists(path + "/index.htm")):
+			print ("	WebPath index.htm found -- symlink index.html to index.html")
+			os.system ("ln -s '" + path + "/index.htm' '" + path + "/index.html'");
+			files = []
+			files.append("index.html")
+		else:
+			# This means we have no index but we will make one
+			os.system ("tree '" + path + "' -H '.' -L 1 --noreport --charset utf-8 -P '*.htm*' | sed -e '/<hr>/,+7d' >" + path + "/index.html")
+			print ("	WebPath: " + path + " is a web directory but doesn't have index file -- Creating an index of this folder")
+			fullFilename = path + "/index.html"   # Rewrite this for indexing
+			filename = "index.html"   # Rewrite this for indexing
+			files = []
+			files.append("index.html")
 		# See if the language already exists in the directory, if not make and populate a directory from the template
 		# Make a symlink to the file on USB to display the content
 		print ("	WebPath: Writing symlink to /html folder")
-		os.system ("ln -s '" + path + "' " + contentDirectory + "/" + language + "/html/")
+		os.system ("ln -s '" + path + "' " + contentDirectory + "/" + language + "'/html/" + relativePath.replace('/','-') + "'")
 		try:
 			if (brand['makeArchive'] == True):
 			  print ("	WebPath: Creating web archive zip file on USB")
@@ -221,14 +281,14 @@ for path,dirs,files in os.walk(mediaDirectory):
 		##########################################################################
 
 		# Skip all files in a web path not named index.html because we just build an item for the index
-		if (path in webpaths and filename != 'index.html'):
+		if (path in webpaths and "index.htm" not in filename):
 			print ("	Webpath file " + filename + " is not index so skip")
 			continue
 
 		# Get certain data about the file and path
 		fullFilename = path + "/" + filename							# Example /media/usb0/content/video.mp4
 		shortName = pathlib.Path(path + "/" + filename).stem			# Example  video      (ALSO, slug is a term used in the BoltCMS mediabuilder that I'm adapting here)
-		relativePath = path.replace(mediaDirectory +'/','')
+		relativePath = path.replace(mediaDirectory +'/','').replace(language + '/','')
 		slug = relativePath.replace('/','-') + '-' + os.path.basename(fullFilename).replace('.','-')			# Example  video.mp4
 		extension = pathlib.Path(path + "/" + filename).suffix			# Example  .mp4
 
@@ -271,13 +331,17 @@ for path,dirs,files in os.walk(mediaDirectory):
 		#			the mimeType is always zip for the zip file to download
 		#			the filename is always to the zip file
 
-		if (extension == '.html'):
+		#if (extension == '.html'):
+		if (filename == 'index.html'):
 			print ("	Handling index.html for webpath")
-			slug = os.path.basename(os.path.normpath(path))
+			slug = relativePath.replace('/','-')  # Used to be os.path.basename(os.path.normpath(path))
 			content["slug"] = slug
 			content["mimeType"] = "application/zip"
-			content["title"] = os.path.basename(os.path.normpath(path))
+			content["title"] = relativePath #used to be os.path.basename(os.path.normpath(path))
 			content["filename"] = slug + ".zip"
+		elif (extension == '.htm' or extension == '.html'):
+			print ("	Ignoring html file not called index.html")
+			continue;
 
 		##########################################################################
 		#  Mime type determination.  Try types.json, then mimetype library
@@ -332,12 +396,13 @@ for path,dirs,files in os.walk(mediaDirectory):
 		#  Compiling Collection or Single
 		##########################################################################
 		if (directoryType == 'collection'):
-			print ("	Adding Episode to collection.json")
+			print ("	Adding Episode to collection.json: " + relativePath)
 			if (len(collection["episodes"]) == 0):
-				collection['title'] = os.path.basename(os.path.normpath(path))
-				collection['slug'] = 'collection-' + collection['title']
+				collection['title'] = relativePath # used to be os.path.basename(os.path.normpath(path))
+				collection['slug'] = 'collection-' + os.path.basename(os.path.normpath(path))
 				collection['mediaType'] = content['mediaType']
 				collection['mimeType'] = content['mimeType']
+				collection['image'] = 'blank.gif'
 				if (content["image"] == types[extension]["image"]):
 				  collection['image'] = 'files.png'
 				elif (content['image']):
@@ -362,6 +427,7 @@ for path,dirs,files in os.walk(mediaDirectory):
 		print ("	Symlink: " + contentDirectory + '/' + language + '/media/' + filename)
 
 		print ("	COMPLETE: Based on file type " + fullFilename + " added to enhanced interface for language " + language)
+		results['processed'] = results['processed'] + 1
 		# END FILE LOOP
 
 	# Wait to write collection to main.json until directory has been fully processed
@@ -418,4 +484,6 @@ with open(contentDirectory + "/languages.json", 'w', encoding='utf-8') as f:
 
 print ("Copying Metadata to Zip File On USB");
 os.system ("(cd " + contentDirectory + " && zip --symlinks -r " + zipFileName + " *)");
+print ("RESULTS:")
+print (results)
 print ("DONE");
