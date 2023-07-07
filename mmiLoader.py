@@ -98,7 +98,7 @@ types = json.load(f);
 webpaths = []     # As we find web content, add here so we skip files and folders within
 
 # Check for empty directory and write default content if empty
-if (len(os.listdir(mediaDirectory)) == 0):
+if (len(os.listdir(mediaDirectory) ) == 0):
 	print("Directory is empty: "+str(mediaDirectory))
 	try:
 			f = open(mediaDirectory + "/connectbox.txt", "w")
