@@ -101,9 +101,9 @@ webpaths = []     # As we find web content, add here so we skip files and folder
 if (len(os.listdir(mediaDirectory) ) == 0):
   print("Directory is empty: "+str(mediaDirectory))
   try:
-		f = open(mediaDirectory + "/connectbox.txt", "w")
-		f.write("<h2>Media Directory Is Empty</h2>Please refer to documentation (placeholder).")
-		f.close()
+    f = open(mediaDirectory + "/connectbox.txt", "w")
+    f.write("<h2>Media Directory Is Empty</h2>Please refer to documentation (placeholder).")
+    f.close()
   except:
     pass
 
