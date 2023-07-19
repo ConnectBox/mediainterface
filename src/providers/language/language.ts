@@ -89,9 +89,11 @@ export class LanguageProvider {
             return of(lang);
           }
         }
-        return this.getPreferredLanguage().pipe(
-          switchMap((preferred: Language) => this.saveLanguage(preferred).pipe(map(() => preferred)))
-        );
+// 20230719 Don't consult browser.  Use default if needed.
+        return this.getDefaultLanguage();
+//      return this.getPreferredLanguage().pipe(
+//        switchMap((preferred: Language) => this.saveLanguage(preferred).pipe(map(() => preferred)))
+//      );
       })
     );
   }
