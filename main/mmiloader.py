@@ -9,6 +9,7 @@ import os
 import pathlib
 import shutil
 import mimetypes
+import logging
 
 mimetypes.init()
 
@@ -84,7 +85,12 @@ print ("Building Content For " + brand['Brand'])
 f = open (templatesDirectory + "/en/data/interface.json");   # We will always place USB content in EN language which is default
 interface = json.load(f);
 interface["APP_NAME"] = brand["Brand"]
-interface["APP_LOGO"] = brand["Logo"]
+
+if brand["enhancedInterfaceLogo"] != "" :
+        interface["APP_LOGO"] = brand["enhancedInterfaceLogo"]
+else:
+        interface["APP_LOGO"] =  brand["Logo"]
+
 
 # Load dictionary of file types
 f = open (templatesDirectory + "/en/data/types.json");
@@ -251,19 +257,21 @@ for path,dirs,files in os.walk(mediaDirectory):
 				f = open (templatesDirectory + "/en/data/item.json");
 				collection = json.load(f);
 				collection["episodes"] = [];
+				collection['image'] = 'blank.gif'				#default value but may be changed
 			f = open (templatesDirectory + "/en/data/episode.json");
 			content = json.load(f);
+			content['image'] = 'blank.gif'						#default value but may be changed
 		else:
 			print ("	Loading Item JSON")
 			f = open (templatesDirectory + "/en/data/item.json");
 			content = json.load(f);
+			content['image'] = 'blank.gif'						#default value but may be changed
 
 		# Update content attributes
 		content["filename"] = filename
 		content["mediaType"] = types[extension]["mediaType"]
 		content["slug"] = slug
 		content["title"] = shortName
-
 		##########################################################################
 		#  Handle Web Content Index Page
 		##########################################################################
@@ -278,6 +286,9 @@ for path,dirs,files in os.walk(mediaDirectory):
 			content["mimeType"] = "application/zip"
 			content["title"] = os.path.basename(os.path.normpath(path))
 			content["filename"] = slug + ".zip"
+			content['image'] = "www.png"
+			if (directoryType == "collection"):
+				collection['image'] = "www.png"
 
 		##########################################################################
 		#  Mime type determination.  Try types.json, then mimetype library
@@ -295,23 +306,26 @@ for path,dirs,files in os.walk(mediaDirectory):
 		else:
 			content["mimeType"] = "application/octet-stream"
 			print ("	Default mimetype: " + content["mimeType"])
-
+			collection['image'] = 'apps.png'
 		##########################################################################
 		#  Thumbnail Management
 		##########################################################################
 
+
 		# If this is a video, we can probably make a thumbnail
-		if (content["mediaType"] == 'video' and not content["image"]):
+		if ((content["mediaType"] == 'video') and (content["image"] == 'blank.gif')):
 			print ("	Attempting to make a thumbnail for the video")
 			os.system("ffmpeg -y -i '" + fullFilename + "' -an -ss 00:00:15 -vframes 1 '" + mediaDirectory + "/.thumbnail-" + slug + ".png' >/dev/null 2>&1")
 			content["image"] = slug + ".png"
 			print ("	Thumbnail is created at: " + content["image"])
+			if collection['image'] == 'blank.gif': collection['image'] = "video.png"
 
 		# Look for thumbnail.  If there is one, use it.  If not
 		print ("	Looking For Thumbnail (.thumbnail-" + content["image"] + ") in " + mediaDirectory)
 		if (types[extension]["mediaType"] == "image"):
 			print ("	Since item is image, thumbnail is the same image")
 			content["image"] = filename
+			collection['image'] = 'images.png'
 			os.system ("ln -s '" + fullFilename + "' " + contentDirectory + "/" + language + "/images/")
 		elif (os.path.exists(mediaDirectory + "/.thumbnail-" + slug + ".png")):
 			if (os.path.getsize(mediaDirectory + "/.thumbnail-" + slug + ".png") > 0):
@@ -320,11 +334,20 @@ for path,dirs,files in os.walk(mediaDirectory):
 			else:
 				print ("	Thumbnail not found.  Placeholder Found at location")
 		else:
-			print ("	Writing Placeholder For Thumbnail to " + mediaDirectory + "/.thumbnail-" + slug + ".png")
-			os.system ('touch "' + mediaDirectory + '/.thumbnail-' + slug + '.png"')
+			print ("	Writing Placeholder For Thumbnail to " + mediaDirectory + "/.thumbnail-" + slug + ".png this was origiinallly just a touch")
+			os.system ('ln -s "'+ mediaDirectory + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' +  'blank.png"')
 
-    # COMMENTED OUT 20220512 because now MMI uses icons instead of images.
-		#if (not content["image"]) :
+		if (content["mediaType"] in 'audio'):  collection['image'] = 'sound.png'
+		elif (content["mediaType"] in 'zip, 7zip, rar'):  collection['image'] = 'zip.png'
+		elif (content["mediaType"] in 'document, text, docx, xlsx, pptx'):  collection['image'] = 'book.png'
+		elif (content['mediaType'] in 'epub'): collection ['image'] = 'epub.png'
+		elif (content['mediaType'] == 'pdf') : collection['image'] = 'pdf.png'
+		elif (content['mediaType'] in 'image, img, tif, tiff, wbmp, ico, jng, bmp, svg, svgz, webp') : collection['image'] = 'images.png'
+		elif (content['mediaType'] == 'application') : collection['image'] = 'apps.png'
+
+		# os.system ('touch "' + mediaDirectory + '/.thumbnail-' + slug + '.png"')
+		# COMMENTED OUT 20220512 because now MMI uses icons instead of images.
+		# if (not content["image"]) :
 		#	print ("	Writing Default Icon As Content Image")
 		#	content["image"] = types[extension]["image"]
 
@@ -338,13 +361,17 @@ for path,dirs,files in os.walk(mediaDirectory):
 				collection['slug'] = 'collection-' + collection['title']
 				collection['mediaType'] = content['mediaType']
 				collection['mimeType'] = content['mimeType']
-				if (content["image"] == types[extension]["image"]):
-				  collection['image'] = 'files.png'
-				elif (content['image']):
+				if content["image"] == types[extension]["image"] and content["image"] != 'blank.gif':
 					collection['image'] = content['image']
+				elif ((content['image'] != "blank.gif") and (collection['image'] == 'blank.gif')):				#now the default on creation of collection
+					collection['image'] = 'images.png'
+				else:
+                                        #  I have no idea when we get here or why
+					print("Woops we have an unknow  image state\g\g")
+					logging.info("Woops we have an uknow image state "+language+" and collection : "+collection['title'])
 			elif (collection['mediaType'] == "application" and content['mediaType'] != "application"):
 				print ("  Replacing collection content type with new value: " + content['mediaType']);
-				collection['mediaType'] = content['mediaType'];
+				collection['mediaType'] = content['mediaType']
 			collection["episodes"].append(content)
 			with open(contentDirectory + "/" + language + "/data/" + collection['slug'] + ".json", 'w', encoding='utf-8') as f:
 				json.dump(collection, f, ensure_ascii=False, indent=4)
