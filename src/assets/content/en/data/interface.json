@@ -18,7 +18,7 @@
     "ZIP": "Archive"
   },
   "MISSING_MEDIA_TITLE": "Media is missing!",
-  "MISSING_MEDIA_TEXT": "Something went wrong! The media is missing!",
+  "MISSING_MEDIA_TEXT": "Were working on collecting the data or\nSomething went wrong! The media is missing!",
   "RECOMMENDED_TITLE": "For You",
   "RECOMMENDED_TEXT": "Recommended",
   "UNSUPPORTED_TEXT": "Sorry, your browser does not support videos."
