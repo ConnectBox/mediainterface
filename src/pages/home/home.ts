@@ -148,6 +148,7 @@ export class HomePage {
       }
       this.groupKeys = Object.keys(media).filter((slug) => slug !== 'other');
     });
+    if (!this.logo || this.logo.length < 5) { this.logo = "/imgs/logo.png"; }  // 20230823 Added to resolve issues related to language missing in content
     this.translateService.get('APP_LOGO').pipe(take(1)).subscribe((logo: string) => this.logo = logo);
   }
 
