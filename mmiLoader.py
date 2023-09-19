@@ -325,7 +325,8 @@ for path,dirs,files in os.walk(mediaDirectory):
 		if (types[extension]["mediaType"] == "image"):
 			print ("	Since item is image, thumbnail is the same image")
 			content["image"] = filename
-			collection['image'] = 'images.png'
+			if directoryType == 'collection':
+				collection["image"] = 'images.png'
 			os.system ("ln -s '" + fullFilename + "' " + contentDirectory + "/" + language + "/images/")
 		elif (os.path.exists(mediaDirectory + "/.thumbnail-" + slug + ".png")):
 			if (os.path.getsize(mediaDirectory + "/.thumbnail-" + slug + ".png") > 0):
@@ -342,8 +343,12 @@ for path,dirs,files in os.walk(mediaDirectory):
 		elif (content["mediaType"] in 'document, text, docx, xlsx, pptx'):  collection['image'] = 'book.png'
 		elif (content['mediaType'] in 'epub'): collection ['image'] = 'epub.png'
 		elif (content['mediaType'] == 'pdf') : collection['image'] = 'pdf.png'
-		elif (content['mediaType'] in 'image, img, tif, tiff, wbmp, ico, jng, bmp, svg, svgz, webp') : collection['image'] = 'images.png'
-		elif (content['mediaType'] == 'application') : collection['image'] = 'apps.png'
+		elif (content['mediaType'] in 'image, img, tif, tiff, wbmp, ico, jng, bmp, svg, svgz, webp') :
+			if directoryType == 'collection':
+				 collection['image'] = 'images.png'
+		elif (content['mediaType'] == 'application') :
+			if directoryType == 'collection':
+				 collection['image'] = 'apps.png'
 
 		# os.system ('touch "' + mediaDirectory + '/.thumbnail-' + slug + '.png"')
 		# COMMENTED OUT 20220512 because now MMI uses icons instead of images.
