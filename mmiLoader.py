@@ -318,7 +318,7 @@ for path,dirs,files in os.walk(mediaDirectory):
 			os.system("ffmpeg -y -i '" + fullFilename + "' -an -ss 00:00:15 -vframes 1 '" + mediaDirectory + "/.thumbnail-" + slug + ".png' >/dev/null 2>&1")
 			content["image"] = slug + ".png"
 			print ("	Thumbnail is created at: " + content["image"])
-			if collection['image'] == 'blank.gif': collection['image'] = "video.png"
+			if ('collection' in locals() or 'collection' in globals()) and collection['image'] == 'blank.gif': collection['image'] = "video.png"
 
 		# Look for thumbnail.  If there is one, use it.  If not
 		print ("	Looking For Thumbnail (.thumbnail-" + content["image"] + ") in " + mediaDirectory)
@@ -337,7 +337,7 @@ for path,dirs,files in os.walk(mediaDirectory):
 			print ("	Writing Placeholder For Thumbnail to " + mediaDirectory + "/.thumbnail-" + slug + ".png this was origiinallly just a touch")
 			os.system ('ln -s "'+ mediaDirectory + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' +  'blank.png"')
 
-		if (content["mediaType"] in 'audio'):  collection['image'] = 'sound.png'
+		if ('collection' in locals() or 'collection' in globals()) and (content["mediaType"] in 'audio'):  collection['image'] = 'sound.png'
 		elif (content["mediaType"] in 'zip, 7zip, rar'):  collection['image'] = 'zip.png'
 		elif (content["mediaType"] in 'document, text, docx, xlsx, pptx'):  collection['image'] = 'book.png'
 		elif (content['mediaType'] in 'epub'): collection ['image'] = 'epub.png'
