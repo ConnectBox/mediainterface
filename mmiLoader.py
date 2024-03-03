@@ -337,13 +337,22 @@ for path,dirs,files in os.walk(mediaDirectory):
 			print ("	Writing Placeholder For Thumbnail to " + mediaDirectory + "/.thumbnail-" + slug + ".png this was origiinallly just a touch")
 			os.system ('ln -s "'+ mediaDirectory + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' +  'blank.png"')
 
-		if ('collection' in locals() or 'collection' in globals()) and (content["mediaType"] in 'audio'):  collection['image'] = 'sound.png'
-		elif (content["mediaType"] in 'zip, 7zip, rar'):  collection['image'] = 'zip.png'
-		elif (content["mediaType"] in 'document, text, docx, xlsx, pptx'):  collection['image'] = 'book.png'
-		elif (content['mediaType'] in 'epub'): collection ['image'] = 'epub.png'
-		elif (content['mediaType'] == 'pdf') : collection['image'] = 'pdf.png'
-		elif (content['mediaType'] in 'image, img, tif, tiff, wbmp, ico, jng, bmp, svg, svgz, webp') : collection['image'] = 'images.png'
-		elif (content['mediaType'] == 'application') : collection['image'] = 'apps.png'
+		if ('collection' in locals() or 'collection' in globals()):
+			if (content["mediaType"] in 'audio'):  collection['image'] = 'sound.png'
+			elif (content["mediaType"] in 'zip, 7zip, rar'):  collection['image'] = 'zip.png'
+			elif (content["mediaType"] in 'document, text, docx, xlsx, pptx'):  collection['image'] = 'book.png'
+			elif (content['mediaType'] in 'epub'): collection ['image'] = 'epub.png'
+			elif (content['mediaType'] == 'pdf') : collection['image'] = 'pdf.png'
+			elif (content['mediaType'] in 'image, img, tif, tiff, wbmp, ico, jng, bmp, svg, svgz, webp') : collection['image'] = 'images.png'
+			elif (content['mediaType'] == 'application') : collection['image'] = 'apps.png'
+		else:
+			if (content["mediaType"] in 'audio'):  content['image'] = 'sound.png'
+			elif (content["mediaType"] in 'zip, 7zip, rar'):  content['image'] = 'zip.png'
+			elif (content["mediaType"] in 'document, text, docx, xlsx, pptx'):  content['image'] = 'book.png'
+			elif (content['mediaType'] in 'epub'): content ['image'] = 'epub.png'
+			elif (content['mediaType'] == 'pdf') : content['image'] = 'pdf.png'
+			elif (content['mediaType'] in 'image, img, tif, tiff, wbmp, ico, jng, bmp, svg, svgz, webp') : content['image'] = 'images.png'
+			elif (content['mediaType'] == 'application') : content['image'] = 'apps.png'
 
 		# os.system ('touch "' + mediaDirectory + '/.thumbnail-' + slug + '.png"')
 		# COMMENTED OUT 20220512 because now MMI uses icons instead of images.
