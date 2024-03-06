@@ -435,6 +435,7 @@ for path,dirs,files in os.walk(mediaDirectory):
 
 ################################################################################################################################################################################
 
+
 		# os.system ('touch "' + mediaDirectory + '/.thumbnail-' + slug + '.png"')
 		# COMMENTED OUT 20220512 because now MMI uses icons instead of images.
 		# if (not content["image"]) :
