@@ -139,15 +139,25 @@ for path,dirs,files in os.walk(mediaDirectory):
 	#  See if this directory is language folder or content
 	##########################################################################
 
-	print ('	Checking For Language Folder: '+ thisDirectory)
+	print ('	Checking For Language Folder or .language File: '+ thisDirectory)
 	try:
 		if (os.path.isdir(mediaDirectory + '/' + thisDirectory) and mediaDirectory + '/' + thisDirectory == path):
 			print ("	Directory is a valid language directory since it is in the root of the USB")
+			print ('	Found Language: ' + json.dumps(languageCodes[thisDirectory]))
+			language = thisDirectory
+			directoryType = "language"
+		elif (os.path.isdir(mediaDirectory) and os.path.exists(mediaDirectory + "/.language")):
+			print ("	Root Directory has .language file")
+			file = open(mediaDirectory + "/.language")
+			lineCounter = 0;
+			for line in file:
+				lineCounter+=1;
+				if (lineCounter == 1):
+					language = line.strip();
+			print ('	Found Language: ' + language)
+			directoryType = "language"
 		else:
 			fail() # This is a placeholder to trigger the try:except to have an exception that goes to except below
-		print ('	Found Language: ' + json.dumps(languageCodes[thisDirectory]))
-		language = thisDirectory
-		directoryType = "language"
 	except:
 		print ('	NOT a Language: ' + thisDirectory)
 
@@ -194,10 +204,10 @@ for path,dirs,files in os.walk(mediaDirectory):
 		os.system ("ln -s '" + path + "' " + contentDirectory + "/" + language + "/html/")
 		try:
 			if (brand['makeArchive'] == True):
-			  print ("	WebPath: Creating web archive zip file on USB")
-			  shutil.make_archive(mediaDirectory + "/.webarchive-" + thisDirectory, 'zip', path)
-			  print ("	WebPath: Linking web archive zip")
-			  os.system ('ln -s "'+ mediaDirectory + '/.webarchive-' + thisDirectory + '.zip" "' + contentDirectory + "/" + language + "/html/" + thisDirectory + '.zip"')
+				print ("	WebPath: Creating web archive zip file on USB")
+				shutil.make_archive(mediaDirectory + "/.webarchive-" + thisDirectory, 'zip', path)
+				print ("	WebPath: Linking web archive zip")
+				os.system ('ln -s "'+ mediaDirectory + '/.webarchive-' + thisDirectory + '.zip" "' + contentDirectory + "/" + language + "/html/" + thisDirectory + '.zip"')
 		except:
 			print ("	NOT making web archive according to brand.txt, makeArchive is not true");
 		dirs = []
