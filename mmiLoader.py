@@ -321,6 +321,23 @@ for path,dirs,files in os.walk(mediaDirectory):
 		#  Thumbnail Management
 		##########################################################################
 
+		# Look for thumbnail.  If there is one, use it.  If not
+		print ("	Looking For Thumbnail (.thumbnail-" + content["image"] + ") in " + mediaDirectory)
+		if (types[extension]["mediaType"] == "image"):
+			print ("	Since item is image, thumbnail is the same image")
+			content["image"] = filename
+			if ('collection' in locals() or 'collection' in globals()): 
+				collection['image'] = 'images.png'
+			os.system ("ln -s '" + fullFilename + "' " + contentDirectory + "/" + language + "/images/")
+		elif (os.path.exists(mediaDirectory + "/.thumbnail-" + slug + ".png")):
+			if (os.path.getsize(mediaDirectory + "/.thumbnail-" + slug + ".png") > 0):
+				print ("	Linking Thumbnail: " + mediaDirectory + "/.thumbnail-" + slug + ".png")
+				os.system ('ln -s "'+ mediaDirectory + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' + slug + '.png"')
+			else:
+				print ("	Thumbnail not found.  Placeholder Found at location")
+		else:
+			print ("	Writing Placeholder For Thumbnail to " + mediaDirectory + "/.thumbnail-" + slug + ".png this was origiinallly just a touch")
+			os.system ('ln -s "'+ mediaDirectory + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' +  'blank.png"')
 
 		# If this is a video, we can probably make a thumbnail
 		if ((content["mediaType"] == 'video') and (content["image"] == 'blank.gif')):
@@ -337,31 +354,22 @@ for path,dirs,files in os.walk(mediaDirectory):
 			print ("	Thumbnail is created at: " + content["image"])
 			if ('collection' in locals() or 'collection' in globals()) and collection['image'] == 'blank.gif': collection['image'] = "video.png"
 
-		# Look for thumbnail.  If there is one, use it.  If not
-		print ("	Looking For Thumbnail (.thumbnail-" + content["image"] + ") in " + mediaDirectory)
-		if (types[extension]["mediaType"] == "image"):
-			print ("	Since item is image, thumbnail is the same image")
-			content["image"] = filename
-			collection['image'] = 'images.png'
-			os.system ("ln -s '" + fullFilename + "' " + contentDirectory + "/" + language + "/images/")
-		elif (os.path.exists(mediaDirectory + "/.thumbnail-" + slug + ".png")):
-			if (os.path.getsize(mediaDirectory + "/.thumbnail-" + slug + ".png") > 0):
-				print ("	Linking Thumbnail: " + mediaDirectory + "/.thumbnail-" + slug + ".png")
-				os.system ('ln -s "'+ mediaDirectory + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' + slug + '.png"')
-			else:
-				print ("	Thumbnail not found.  Placeholder Found at location")
-		else:
-			print ("	Writing Placeholder For Thumbnail to " + mediaDirectory + "/.thumbnail-" + slug + ".png this was origiinallly just a touch")
-			os.system ('ln -s "'+ mediaDirectory + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' +  'blank.png"')
-
 		if ('collection' in locals() or 'collection' in globals()):
-			if ('collection' in locals() or 'collection' in globals()) and (content["mediaType"] in 'audio'):  collection['image'] = 'sound.png'
+			if (content["mediaType"] in 'audio'):  collection['image'] = 'sound.png'
 			elif (content["mediaType"] in 'zip, 7zip, rar'):  collection['image'] = 'zip.png'
 			elif (content["mediaType"] in 'document, text, docx, xlsx, pptx'):  collection['image'] = 'book.png'
 			elif (content['mediaType'] in 'epub'): collection ['image'] = 'epub.png'
 			elif (content['mediaType'] == 'pdf') : collection['image'] = 'pdf.png'
 			elif (content['mediaType'] in 'image, img, tif, tiff, wbmp, ico, jng, bmp, svg, svgz, webp') : collection['image'] = 'images.png'
 			elif (content['mediaType'] == 'application') : collection['image'] = 'apps.png'
+		else:
+			if (content["mediaType"] in 'audio'):  content['image'] = 'sound.png'
+			elif (content["mediaType"] in 'zip, 7zip, rar'):  content['image'] = 'zip.png'
+			elif (content["mediaType"] in 'document, text, docx, xlsx, pptx'):  content['image'] = 'book.png'
+			elif (content['mediaType'] in 'epub'): content ['image'] = 'epub.png'
+			elif (content['mediaType'] == 'pdf') : content['image'] = 'pdf.png'
+			elif (content['mediaType'] in 'image, img, tif, tiff, wbmp, ico, jng, bmp, svg, svgz, webp') : content['image'] = 'images.png'
+			elif (content['mediaType'] == 'application') : content['image'] = 'apps.png'
 
 
 		# os.system ('touch "' + mediaDirectory + '/.thumbnail-' + slug + '.png"')
