@@ -330,6 +330,13 @@ for path,dirs,files in os.walk(mediaDirectory):
 			print ("	Thumbnail is created at: " + content["image"])
 			if ('collection' in locals() or 'collection' in globals()) and collection['image'] == 'blank.gif': collection['image'] = "video.png"
 
+		if ((content["mediaType"] == 'audio') and (content["image"] == 'blank.gif')):
+			print ("	Attempting to make a thumbnail for the audio")
+			os.system("ffmpeg -y -i '" + fullFilename + "' -an -c:v copy '" + mediaDirectory + "/.thumbnail-" + slug + ".png' >/dev/null 2>&1")
+			content["image"] = slug + ".png"
+			print ("	Thumbnail is created at: " + content["image"])
+			if ('collection' in locals() or 'collection' in globals()) and collection['image'] == 'blank.gif': collection['image'] = "video.png"
+
 		# Look for thumbnail.  If there is one, use it.  If not
 		print ("	Looking For Thumbnail (.thumbnail-" + content["image"] + ") in " + mediaDirectory)
 		if (types[extension]["mediaType"] == "image"):
