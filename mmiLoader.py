@@ -203,17 +203,39 @@ for path,dirs,files in os.walk(mediaDirectory):
 		print ("	WebPath: Writing symlink to /html folder")
 		os.system ("ln -s '" + path + "' " + contentDirectory + "/" + language + "/html/")
 		try:
-			if (brand['makeArchive'] == True):
-				print ("	WebPath: Creating web archive zip file on USB")
-				shutil.make_archive(mediaDirectory + "/.webarchive-" + thisDirectory, 'zip', path)
-				print ("	WebPath: Linking web archive zip")
-				os.system ('ln -s "'+ mediaDirectory + '/.webarchive-' + thisDirectory + '.zip" "' + contentDirectory + "/" + language + "/html/" + thisDirectory + '.zip"')
+			print ("	WebPath: Creating web archive zip file on USB")
+			shutil.make_archive(mediaDirectory + "/.webarchive-" + thisDirectory, 'zip', path)
+			print ("	WebPath: Linking web archive zip")
+			os.system ('ln -s "'+ mediaDirectory + '/.webarchive-' + thisDirectory + '.zip" "' + contentDirectory + "/" + language + "/html/" + thisDirectory + '.zip"')
 		except:
 			print ("	NOT making web archive according to brand.txt, makeArchive is not true");
 		dirs = []
 		print ("	WebPath: Set webpaths to true for this directory: " +thisDirectory)
 		webpaths.append(path)
 		directoryType = "html"
+
+	##########################################################################
+	#  If this directory contains AndroidManifest.xml then treat as Android App
+	##########################################################################
+
+	if (os.path.exists(path + "/AndroidManifest.xml")):
+		print ("	" + path + " is Android App")
+		# See if the language already exists in the directory, if not make and populate a directory from the template
+		# Make a symlink to the file on USB to display the content
+		print ("	WebPath: Writing symlink to /html folder")
+		os.system ("ln -s '" + path + "' " + contentDirectory + "/" + language + "/html/")
+# 		try:
+# 			if (brand['makeArchive'] == True):
+# 				print ("	WebPath: Creating web archive zip file on USB")
+# 				shutil.make_archive(mediaDirectory + "/.webarchive-" + thisDirectory, 'zip', path)
+# 				print ("	WebPath: Linking web archive zip")
+# 				os.system ('ln -s "'+ mediaDirectory + '/.webarchive-' + thisDirectory + '.zip" "' + contentDirectory + "/" + language + "/html/" + thisDirectory + '.zip"')
+# 		except:
+# 			print ("	NOT making web archive according to brand.txt, makeArchive is not true");
+		dirs = []
+		print ("	WebPath: Set webpaths to true for this directory: " +thisDirectory)
+		webpaths.append(path)
+		directoryType = "apk"
 
 	##########################################################################
 	#  Finish detecting directoryType (root, language, html, collection)
@@ -237,7 +259,7 @@ for path,dirs,files in os.walk(mediaDirectory):
 		##########################################################################
 
 		# Skip all files in a web path not named index.html because we just build an item for the index
-		if (path in webpaths and filename != 'index.html'):
+		if (path in webpaths and (filename != 'index.html' and filename != 'AndroidManifest.xml')):
 			print ("	Webpath file " + filename + " is not index so skip")
 			continue
 
@@ -322,7 +344,7 @@ for path,dirs,files in os.walk(mediaDirectory):
 		##########################################################################
 
 		# Look for thumbnail.  If there is one, use it.  If not
-		print ("	Looking For Thumbnail (.thumbnail-" + content["image"] + ") in " + mediaDirectory)
+		print ("	Looking For Thumbnail (.thumbnail-" + slug + ") in " + mediaDirectory)
 		if (types[extension]["mediaType"] == "image"):
 			print ("	Since item is image, thumbnail is the same image")
 			content["image"] = filename
@@ -333,6 +355,7 @@ for path,dirs,files in os.walk(mediaDirectory):
 			if (os.path.getsize(mediaDirectory + "/.thumbnail-" + slug + ".png") > 0):
 				print ("	Linking Thumbnail: " + mediaDirectory + "/.thumbnail-" + slug + ".png")
 				os.system ('ln -s "'+ mediaDirectory + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' + slug + '.png"')
+				content["image"] = slug + ".png"
 			else:
 				print ("	Thumbnail not found.  Placeholder Found at location")
 		else:
