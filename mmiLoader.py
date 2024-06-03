@@ -238,6 +238,29 @@ for path,dirs,files in os.walk(mediaDirectory):
 		directoryType = "apk"
 
 	##########################################################################
+	#  If this directory contains .compress file then zip
+	##########################################################################
+
+	if (os.path.exists(path + "/.compress")):
+		print ("	" + path + " is folder to compress")
+		# See if the language already exists in the directory, if not make and populate a directory from the template
+		# Make a symlink to the file on USB to display the content
+		print ("	WebPath: Writing symlink to /html folder")
+		os.system ("ln -s '" + path + "' " + contentDirectory + "/" + language + "/html/")
+# 		try:
+# 			if (brand['makeArchive'] == True):
+# 				print ("	WebPath: Creating web archive zip file on USB")
+# 				shutil.make_archive(mediaDirectory + "/.webarchive-" + thisDirectory, 'zip', path)
+# 				print ("	WebPath: Linking web archive zip")
+# 				os.system ('ln -s "'+ mediaDirectory + '/.webarchive-' + thisDirectory + '.zip" "' + contentDirectory + "/" + language + "/html/" + thisDirectory + '.zip"')
+# 		except:
+# 			print ("	NOT making web archive according to brand.txt, makeArchive is not true");
+		dirs = []
+		print ("	WebPath: Set webpaths to true for this directory: " +thisDirectory)
+		webpaths.append(path)
+		directoryType = "html"
+
+	##########################################################################
 	#  Finish detecting directoryType (root, language, html, collection)
 	##########################################################################
 	if (path == mediaDirectory):
