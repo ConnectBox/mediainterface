@@ -367,7 +367,7 @@ for path,dirs,files in os.walk(mediaDirectory):
 		##########################################################################
 
 		# Look for thumbnail.  If there is one, use it.  If not
-		print ("	Looking For Thumbnail (.thumbnail-" + slug + ") in " + mediaDirectory)
+		print ("	Looking For Thumbnail (.thumbnail-" + slug + ") in " + mediaDirectory + "/" + language )
 		if (types[extension]["mediaType"] == "image"):
 			print ("	Since item is image, thumbnail is the same image")
 			content["image"] = filename
