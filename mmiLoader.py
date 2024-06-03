@@ -351,28 +351,28 @@ for path,dirs,files in os.walk(mediaDirectory):
 			if ('collection' in locals() or 'collection' in globals()): 
 				collection['image'] = 'images.png'
 			os.system ("ln -s '" + fullFilename + "' " + contentDirectory + "/" + language + "/images/")
-		elif (os.path.exists(mediaDirectory + "/.thumbnail-" + slug + ".png")):
-			if (os.path.getsize(mediaDirectory + "/.thumbnail-" + slug + ".png") > 0):
-				print ("	Linking Thumbnail: " + mediaDirectory + "/.thumbnail-" + slug + ".png")
-				os.system ('ln -s "'+ mediaDirectory + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' + slug + '.png"')
+		elif (os.path.exists(mediaDirectory + "/" + language + "/.thumbnail-" + slug + ".png")):
+			if (os.path.getsize(mediaDirectory + "/" + language + "/.thumbnail-" + slug + ".png") > 0):
+				print ("	Linking Thumbnail: " + mediaDirectory + "/" + language + "/.thumbnail-" + slug + ".png")
+				os.system ('ln -s "'+ mediaDirectory + "/" + language + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' + slug + '.png"')
 				content["image"] = slug + ".png"
 			else:
 				print ("	Thumbnail not found.  Placeholder Found at location")
 		else:
-			print ("	Writing Placeholder For Thumbnail to " + mediaDirectory + "/.thumbnail-" + slug + ".png this was origiinallly just a touch")
-			os.system ('ln -s "'+ mediaDirectory + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' +  'blank.png"')
+			print ("	Writing Placeholder For Thumbnail to " + mediaDirectory + "/" + language + "/.thumbnail-" + slug + ".png this was origiinallly just a touch")
+			os.system ('ln -s "'+ mediaDirectory + "/" + language + '/.thumbnail-' + slug + '.png" "' + contentDirectory + '/' + language + '/images/' +  'blank.png"')
 
 		# If this is a video, we can probably make a thumbnail
 		if ((content["mediaType"] == 'video') and (content["image"] == 'blank.gif')):
 			print ("	Attempting to make a thumbnail for the video")
-			os.system("ffmpeg -y -i '" + fullFilename + "' -an -ss 00:00:15 -vframes 1 '" + mediaDirectory + "/.thumbnail-" + slug + ".png' >/dev/null 2>&1")
+			os.system("ffmpeg -y -i '" + fullFilename + "' -an -ss 00:00:15 -vframes 1 '" + mediaDirectory + "/" + language + "/.thumbnail-" + slug + ".png' >/dev/null 2>&1")
 			content["image"] = slug + ".png"
 			print ("	Thumbnail is created at: " + content["image"])
 			if ('collection' in locals() or 'collection' in globals()) and collection['image'] == 'blank.gif': collection['image'] = "video.png"
 
 		if ((content["mediaType"] == 'audio') and (content["image"] == 'blank.gif')):
 			print ("	Attempting to make a thumbnail for the audio")
-			os.system("ffmpeg -y -i '" + fullFilename + "' -an -c:v copy '" + mediaDirectory + "/.thumbnail-" + slug + ".png' >/dev/null 2>&1")
+			os.system("ffmpeg -y -i '" + fullFilename + "' -an -c:v copy '" + mediaDirectory + "/" + language + "/.thumbnail-" + slug + ".png' >/dev/null 2>&1")
 			content["image"] = slug + ".png"
 			print ("	Thumbnail is created at: " + content["image"])
 			if ('collection' in locals() or 'collection' in globals()) and collection['image'] == 'blank.gif': collection['image'] = "video.png"
