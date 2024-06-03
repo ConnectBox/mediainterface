@@ -204,9 +204,9 @@ for path,dirs,files in os.walk(mediaDirectory):
 		os.system ("ln -s '" + path + "' " + contentDirectory + "/" + language + "/html/")
 		try:
 			print ("	WebPath: Creating web archive zip file on USB")
-			shutil.make_archive(mediaDirectory + "/.webarchive-" + thisDirectory, 'zip', path)
+			shutil.make_archive(mediaDirectory + "/" + language + "/.webarchive-" + thisDirectory, 'zip', path)
 			print ("	WebPath: Linking web archive zip")
-			os.system ('ln -s "'+ mediaDirectory + '/.webarchive-' + thisDirectory + '.zip" "' + contentDirectory + "/" + language + "/html/" + thisDirectory + '.zip"')
+			os.system ('ln -s "'+ mediaDirectory + "/" + language + '/.webarchive-' + thisDirectory + '.zip" "' + contentDirectory + "/" + language + "/html/" + thisDirectory + '.zip"')
 		except:
 			print ("	NOT making web archive according to brand.txt, makeArchive is not true");
 		dirs = []
@@ -247,14 +247,13 @@ for path,dirs,files in os.walk(mediaDirectory):
 		# Make a symlink to the file on USB to display the content
 		print ("	WebPath: Writing symlink to /html folder")
 		os.system ("ln -s '" + path + "' " + contentDirectory + "/" + language + "/html/")
-# 		try:
-# 			if (brand['makeArchive'] == True):
-# 				print ("	WebPath: Creating web archive zip file on USB")
-# 				shutil.make_archive(mediaDirectory + "/.webarchive-" + thisDirectory, 'zip', path)
-# 				print ("	WebPath: Linking web archive zip")
-# 				os.system ('ln -s "'+ mediaDirectory + '/.webarchive-' + thisDirectory + '.zip" "' + contentDirectory + "/" + language + "/html/" + thisDirectory + '.zip"')
-# 		except:
-# 			print ("	NOT making web archive according to brand.txt, makeArchive is not true");
+		try:
+			print ("	WebPath: Creating web archive zip file on USB")
+			shutil.make_archive(mediaDirectory + "/" + language + "/.webarchive-" + thisDirectory, 'zip', path)
+			print ("	WebPath: Linking web archive zip")
+			os.system ('ln -s "'+ mediaDirectory + "/" + language + '/.webarchive-' + thisDirectory + '.zip" "' + contentDirectory + "/" + language + "/html/" + thisDirectory + '.zip"')
+		except:
+			print ("	Error making .compress archive");
 		dirs = []
 		print ("	WebPath: Set webpaths to true for this directory: " +thisDirectory)
 		webpaths.append(path)
